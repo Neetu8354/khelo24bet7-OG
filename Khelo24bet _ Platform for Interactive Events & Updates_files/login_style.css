@@ -1,0 +1,445 @@
+body,
+html {
+    position: relative
+}
+
+.login___popup {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .8);
+    transition: opacity .5s;
+    z-index: 10000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Lato, sans-serif
+}
+
+.left1 h2 {
+    color: #fff;
+    font-family: Lato, sans-serif
+}
+
+.lop__pop {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.left1,
+.rightt1 {
+    width: 50%
+}
+
+.form____section {
+    background: #1a1a1a;
+    position: relative;
+    max-width: 450px;
+    margin: auto;
+    border-radius: 36px 36px 0 0
+}
+
+img.img-responsive.lclose {
+    max-width: 35px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer
+}
+
+.formsectindiv {
+    padding-top: 60px;
+    max-width: 350px;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 30px
+}
+
+.formsectindiv h5 {
+    margin: 0;
+    color: #fff;
+    font-size: 19px;
+    padding: 10px 0;
+    font-weight: 700
+}
+
+.head____section h5 span {
+    background: #222;
+    border: .5px solid #444;
+    box-shadow: -4px -4px 10px rgb(60 60 60 / 40%), 5px 5px 5px rgb(17 17 17 / 50%), inset -2px -2px 4px rgb(62 62 62 / 25%), inset 2px 2px 4px rgb(0 0 0 / 25%);
+    border-radius: 35px;
+    display: flex;
+    width: 90px;
+    padding: 5px;
+    float: right;
+    gap: 5px
+}
+
+.untick {
+    display: block
+}
+
+.tick {
+    display: none
+}
+
+.activated_tick .tick {
+    display: block
+}
+
+.activated_tick .untick {
+    display: none
+}
+
+.alert__msg .errorList {
+    margin-top: 0 !important;
+    margin-left: 0
+}
+
+.loginimg {
+    padding: 7px 13px;
+    height: 28px;
+    cursor: pointer
+}
+
+.loginimg.active {
+    background: linear-gradient(90deg, #45abf1 0, #44b623 100%);
+    box-shadow: 3px 2px 10px rgb(0 0 0 / 35%), inset -4px -4px 10px rgb(0 0 0 / 45%), inset 4px 4px 10px rgb(255 255 255 / 35%);
+    border-radius: 35px
+}
+
+.log__input {
+    background: #171717;
+    box-shadow: 5px 5px 5px rgb(17 17 17 / 10%), -4px -4px 10px rgb(60 60 60 / 20%), inset -6px -6px 10px rgb(65 65 65 / 21%), inset 6px 6px 10px rgb(0 0 0 / 25%);
+    border-radius: 50px;
+    width: 100%;
+    padding: 12px 20px;
+    color: #fff;
+    font-weight: 700
+}
+
+.form__section {
+    margin: 15px auto
+}
+
+::-webkit-input-placeholder {
+    color: #5f5f5f;
+    font-weight: 700
+}
+
+:-ms-input-placeholder {
+    color: #5f5f5f;
+    font-weight: 700
+}
+
+::placeholder {
+    color: #5f5f5f;
+    font-weight: 700
+}
+
+.log__btn {
+    background: linear-gradient(90deg, #45abf1 0, #44b623 100%);
+    box-shadow: -4px -4px 10px #3c3c3c, 5px 5px 5px #111;
+    border-radius: 30px;
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+    height: 40px
+}
+
+.for__password a {
+    color: #45abf1;
+    float: right;
+    font-weight: 600;
+    padding: 8px 0
+}
+
+.for__password {
+    position: relative;
+    top: -10px
+}
+
+.bottomsec1 {
+    background: #222;
+    box-shadow: 0 -6px 10px rgba(0, 0, 0, .25);
+    border-radius: 0 0 36px 36px;
+    max-width: 450px;
+    margin: auto;
+    text-align: center
+}
+
+.soc__med__sec {
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: center
+}
+
+img.img-responsive.soci {
+    max-width: 61px;
+    text-align: center;
+    cursor: pointer
+}
+
+p.acc_sec {
+    margin: auto;
+    font-weight: 600;
+    color: #5f5f5f
+}
+
+p.acc_sec a {
+    color: green
+}
+
+img.img-responsive.hideshowing {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer
+}
+
+.form__section {
+    position: relative
+}
+
+.head____section p {
+    color: #5f5f5f;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.mob__sec {
+    position: relative
+}
+
+.sp91 {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+p.sp91 {
+    position: absolute;
+    top: 12px;
+    color: #fff;
+    left: 20px;
+    font-size: 13px
+}
+
+.mob__sec input {
+    padding-left: 50px
+}
+
+.back__btn {
+    border: 1px solid #44b623;
+    background: #1a1a1a;
+    box-shadow: -4px -4px 10px #3c3c3c, 5px 5px 5px #111;
+    border-radius: 30px;
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #fff;
+    font-size: 14px;
+    height: 40px
+}
+
+.form__section.doub__btn {
+    display: flex;
+    gap: 10px
+}
+
+.mob__ph {
+    background: #222;
+    box-shadow: 4px 4px 4px rgb(0 0 0 / 25%), -4px -4px 4px rgb(107 107 107 / 25%);
+    border-radius: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 10px auto
+}
+
+.mob__ph p {
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+img.img-responsive.editimg {
+    max-width: 45px;
+    cursor: pointer
+}
+
+.verification-code--inputs input {
+    background: #171717;
+    box-shadow: 5px 5px 5px rgb(17 17 17 / 10%), -4px -4px 10px rgb(60 60 60 / 20%), inset -6px -6px 10px rgb(65 65 65 / 21%), inset 6px 6px 10px rgb(0 0 0 / 25%);
+    border-radius: 11px;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700
+}
+
+.verification-code--inputs {
+    text-align: center
+}
+
+p.resend__otp {
+    text-align: center;
+    margin-top: 15px
+}
+
+p.resend__otp a {
+    color: #45abf1
+}
+
+.resend__otp1 {
+    text-align: center;
+    margin-top: 20px !important
+}
+
+.alert__msg {
+    color: #ac0b0b !important;
+    margin: 5px auto;
+    font-size: 12px;
+    top: 0 !important;
+    text-align: left;
+}
+
+.verification-code--inputs~.alert__msg {
+    text-align: center !important
+}
+
+.successfull__ {
+    max-width: 60px;
+    text-align: center;
+    margin: auto
+}
+
+.rem__sec {
+    display: flex
+}
+
+.rem__sec img {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+.rem__sec {
+    display: flex;
+    color: #5f5f5f;
+    font-weight: 600;
+    line-height: 1.2;
+    padding-left: 10px
+}
+
+.rightt1::-webkit-scrollbar {
+    width: 0;
+    height: 0
+}
+
+.rightt1 {
+    max-height: 90vh;
+    overflow: scroll
+}
+
+.para__meter__list {
+    display: flex;
+    color: #5f5f5f;
+    font-weight: 600;
+    margin: 3px auto;
+    margin-left: 14px
+}
+
+.para__meter__list img {
+    margin-right: 5px
+}
+
+.llogo {
+    max-width: 120px;
+    position: absolute;
+    top: 13px;
+    left: 20px;
+    display: none
+}
+
+.log__input1 {
+    padding-right: 45px
+}
+.resend__otp1 {
+    cursor: pointer
+}
+
+.log__input {
+    font-size: 12px
+}
+
+.mob__sec input {
+    padding-left: 50px;
+    font-size: 13px;
+    padding-top: 13px
+}
+
+.para__meter__list {
+    font-size: 13px
+}
+
+.acc_sec,
+.ch1 {
+    font-size: 14px
+}
+.mob__ph{
+    width: max-content;
+    padding: 0px 10px;
+}
+.verification-code--inputs input {
+    border: 1px solid #2f2f2f;
+}
+.cls_khelo_24Bet .verification-code--inputs input.focus{
+    border: 1px solid #44b623; 
+}
+@media screen and (max-width:1279px) {
+    .left1 {
+        display: none
+    }
+    .rightt1 {
+        max-width: 100%;
+        width: 90%
+    }
+    .llogo {
+        display: block
+    }
+}
+
+@media only screen and (min-width:319px) and (max-width:420px) {
+    .verification-code--inputs input {
+        margin: 0
+    }
+}
+
+@media only screen and (max-width:319px) {
+    .verification-code--inputs input {
+        margin: 0;
+        width: 35px;
+        height: 35px
+    }
+}
+

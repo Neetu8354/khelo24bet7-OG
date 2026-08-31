@@ -1,0 +1,150 @@
+
+body.datepicker-visible,
+html.datepicker-visible{
+    position:fixed;
+    inset:0;
+    overflow: hidden;
+}
+#transaction .tabs__items.datepicker-visible{
+    overflow: hidden;
+}
+
+.container__datepicker .datepicker-dropdown table{
+    width:100%;
+}
+
+#transaction.tabs__content .tabs__items {
+    overflow: hidden auto;
+}
+
+.container__datepicker{
+    position: relative;
+    width:100%;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    height: 44px;
+    position: relative;
+}
+.container__datepicker .datepicker-dropdown{
+    width:100%!important;
+    top:0!important;
+    left:0!important;
+}
+.container__datepicker .datepicker.dropdown-menu{
+    top:100%!important;
+    left:0;
+    right:0;
+    width:100%!important;
+    min-width:unset!important;
+}
+.container__datepicker i{
+    position: absolute;
+    top:50%;
+    right:10px;
+    color: #f9bb22;
+    transform:translate(-50%, -50%);
+}
+.container__datepicker input{
+    border: 1px solid #f9bb22;
+    padding: 12px 10px;
+    width: auto;
+    /* height: 44px; */
+    border-radius: 20px;
+    flex: 0 0 auto;
+}
+
+.container__datepicker input::placeholder {
+    color: #5c5f5f!important;
+    font-family: Roboto,sans-serif!important;
+  }
+
+.container__datepicker input::-ms-input-placeholder {
+    color: #5c5f5f!important;
+    font-family: Roboto,sans-serif!important;
+
+}
+.bal-row-two .clear__selected__month a{
+    background:transparent;
+    border: transparent;
+    padding:0;
+    display: flex;
+    align-items: center;
+}
+
+@supports (-webkit-touch-callout: none) {
+    @media(min-width:375px) and (max-height:667px){
+        .container__datepicker input::placeholder {
+            position:relative!important;
+            top:50%!important;
+            transform:translateY(-50%)!important;
+        }
+        .container__datepicker input::-ms-input-placeholder {
+            top:50%!important;
+            transform:translateY(-50%)!important;
+        }
+    }
+}
+
+.transactions_history .aj-tn-bal-wrap{
+    width:100%;
+    justify-content: space-between;
+  }
+.transactions_history .bal-row-two{
+    flex: 1;
+    justify-content: flex-end;
+    gap:10px;
+}
+.clear__selected__month{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:36px;
+    display: flex;
+    align-items: center;
+}
+.clear__selected__month svg{
+    width:20px;
+    height:20px;
+}
+.clear__selected__month svg path{
+    fill:#f9bb22;
+}
+@media (max-width: 1441px){
+#transactionNew.tabs__content .transactions_history .aj-tn-bal-wrap {
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.transactions_history .bal-row-two {
+    flex: unset;
+    justify-content: center;
+}
+.container__datepicker {
+    width: auto;
+    flex: unset;
+}
+}
+@media(max-width:600px){
+    .transactions_history .bal-row-two{
+        flex-wrap: wrap;
+        padding:0 10px;
+    }
+    .container__datepicker {
+        width: 100%;
+    }
+    .container__datepicker input {
+        width:100%;
+    }
+}
+@media(max-width:545px){
+    .container__datepicker {
+        width: 100%;
+        flex: unset;
+    }
+    .container__datepicker input {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        flex: unset;
+    }
+}

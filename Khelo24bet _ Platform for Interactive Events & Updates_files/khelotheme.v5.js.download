@@ -1,0 +1,974 @@
+$("body").on("keyup", ".login___popup input", function () {
+    $(this).parent(".form__section").find(".alert__msg").hide()
+}), $("body").on("keyup", "input", function () {
+    $(this).parents(".input-group").find(".error-container").hide()
+}), $("body").on("click", ".login_pop_sec_change", function () {
+    $(".login___popup .alert__msg").hide()
+}), $("body").on("click", ".blClose, .login_pop_sec_change", function () {
+    $("#passwordKhelo, #login_khelo_password").attr("type", "password"), $(".form__section .hideshowing.showimg").hide(), $(".form__section .hideshowing.hideimg").show()
+}), $("body").on("click", ".before_login_sec a", function () {
+    $("body, html").addClass("log__pop__opened")
+}), $("body").on("click", ".blClose", function () {
+    $("body, html").removeClass("log__pop__opened")
+}), $("body").on("click", ".ks_deposit_pop", function () {
+    $("html, body").addClass("wallet__pop__opened")
+}), $("body").on("click", ".mdi-close", function () {
+    $("html, body").removeClass("wallet__pop__opened")
+}), $(".clear_input").click(function () {
+    $(this).parents(".pop_search_sec").find("input.searchAllGames").val("")
+}), $(".tabs__div a svg:first-child").addClass("first__svg"), $(".tabs__div a svg:last-child").addClass("last__svg"), $("body").on("click", "#profileMain .jwbtn-red, #profileMain .tabs__div a, .tabs__left__sec__account .tabs__div", function () {
+    $("#profileMain input.profiile__pass__input").attr("type", "password"), $("#profileMain .input-group i.icon").removeClass("mdi-eye").addClass("mdi-eye-off"), $("#profileMain .input-group--append-icon").removeClass("input-group--dirty")
+}), $("body").on("click", ".footer-Main li", function () {
+    $(".floaterAction, #scroll_top").hide()
+}), $("body").on("click", ".jrk_pop_close", function () {
+    $(".floaterAction, #scroll_top").show()
+}), $(document).click(function () {
+    $(".bet_wrapper").hasClass("open_kr") ? $(".footer-Main").addClass("foot__hide") : $(".footer-Main").removeClass("foot__hide")
+}), $("body").on("click", ".loayalty__tab__main", function () {
+    $(".tabs__item.loyalty__tab").addClass("tabs__item--active")
+}), $("body").on("click", ".spin__win__main__tab", function () {
+    $(".tabs__item.spin__win__tab").addClass("tabs__item--active")
+}),
+    $(document).click(function () {
+        $(".overlay").hasClass("overlay--active") ? $("html,body").addClass("page_overflow") : $("html,body").removeClass("page_overflow")
+    }), $("body").on("click", ".rightDrawer .drawer-links ul.right__menu__links li", function () {
+        $(".overlay").removeClass("overlay--active"), $("body, html").removeClass("page_overflow")
+    });
+let container = document.querySelector(".gamelistsWrapper ul"),
+    listItems = document.querySelectorAll(".gamelistsWrapper ul li"),
+    container1 = (listItems.forEach(function (t) {
+        t.addEventListener("click", function () {
+            var e = t.offsetWidth,
+                e = t.offsetLeft - (container.offsetWidth - e) / 2;
+            container.scrollTo({
+                left: e,
+                behavior: "smooth"
+            })
+        })
+    }), document.querySelector(".gamePlatformWrapper .tabs__wrapper")),
+    listItems1 = document.querySelectorAll(".ftrProviderBtn"),
+    container2 = (listItems1.forEach(function (t) {
+        t.addEventListener("click", function () {
+            var e = t.offsetWidth,
+                e = t.offsetLeft - (container1.offsetWidth - e) / 2;
+            container1.scrollTo({
+                left: e,
+                behavior: "smooth"
+            })
+        })
+    }), document.querySelector(".promotion-category")),
+    listItems2 = document.querySelectorAll(".promotion-category li"),
+    container3 = (listItems2.forEach(function (t) {
+        t.addEventListener("click", function () {
+            var e = t.offsetWidth,
+                e = t.offsetLeft - (container2.offsetWidth - e) / 2;
+            container2.scrollTo({
+                left: e,
+                behavior: "smooth"
+            })
+        })
+    }), document.querySelector(".tournament-tabs-holder .tabs__wrapper")),
+    listItems3 = document.querySelectorAll(".tournament-tabs-holder .tabs__wrapper .tournamentTab");
+listItems3.forEach(function (t) {
+    t.addEventListener("click", function () {
+        var e = t.offsetWidth,
+            e = t.offsetLeft - (container3.offsetWidth - e) / 2;
+        container3.scrollTo({
+            left: e,
+            behavior: "smooth"
+        })
+    })
+})
+var maxChars = 500,
+    textArea = $(".textarea__limit"),
+    charCount = $("#charCount");
+
+function setHeaderMenuActive() {
+    var e = window.location.pathname;
+    ["/promotions"].includes(e) || e.includes("/promotions") ? $(".promotion__head__link a").addClass("active") : $(".promotion__head__link a").removeClass("active")
+}
+$(".textarea__limit").attr("maxlength", maxChars), textArea.on("input", function () {
+    var e = maxChars - textArea.val().length;
+    charCount.text(textArea.val().length + "/" + maxChars), e < 0 ? charCount.addClass("exceeded") : charCount.removeClass("exceeded")
+}), $("body").on("click", ".bankDataBack__withdrawal", function () {
+    $("#addBankDetailsId1").show(), $("#addBankDetailsId2").hide()
+}), $(document).click(function () {
+    $(".betslip_kr_wrapper").hasClass("open_kr") ? $("body, html").addClass("bets__opened") : $("body, html").removeClass("bets__opened")
+}), $(document).ready(function () {
+    setHeaderMenuActive()
+}), $("body").on("click", ".expansion-panel__containers", function () {
+    $(".expansion-panel__containers").removeClass("expansion-panel__containers__active"), $(this).toggleClass("expansion-panel__containers__active")
+}), $("body").on("click", ".expansion-panel__containers__active", function () {
+    $(this).removeClass("expansion-panel__containers__active")
+}), $("body").on("click", ".expansion-panel__body", function (e) {
+    e.stopPropagation()
+}), $("body").on("click", ".expansion-panel__headers", function () {
+    $(".expansion-panel__containers").removeClass("expansion-panel__container--active"), $(this).toggleClass("faq__header__active").siblings("li").removeClass("faq__header__active"), $(".expansion-panel__headers").parent("li").find(".expansion-panel__body").slideUp("fast");
+    var a = $(this).parent().find(".expansion-panel__body");
+    "none" == a.css("display") ? (a.slideDown("fast"), $(this).find(".acc_down_arr").addClass("rotatearrowup"), $(this).find(".acc_down_arr").removeClass("rotatearrowdw"), setTimeout(() => {
+        var e = window.innerHeight,
+            t = $(a)[0].getBoundingClientRect().top + $(a)[0].getBoundingClientRect().height,
+            o = ((navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i) || navigator.userAgent.match(/iPad/i) || navigator.userAgent.match(/Android/i) || navigator.userAgent.match(/Blackberry/i) || navigator.userAgent.match(/Windows Phone/i)) && (t = $(a)[0].getBoundingClientRect().top + $(a)[0].getBoundingClientRect().height + $(".mobile_footer_new").height() + 10), window.pageYOffset + -1 * (e - t));
+        e <= t && window.scrollTo({
+            top: o,
+            left: 0,
+            behavior: "smooth"
+        })
+    }, 500)) : ($(this).parent().find(".acc_down_arr").addClass("rotatearrowdw"), $(this).parent().find(".acc_down_arr").removeClass("rotatearrowup"), a.slideUp("fast"))
+}), document.addEventListener("DOMContentLoaded", function () {
+    var e, t = window.location.href;
+
+    if (t) {
+        let baseUrl = t.split('/').slice(0, 4).join('/');
+        t = document.querySelector('.navigation li a[href="' + baseUrl + '"]');
+        if (t) {
+            t = t.closest("li");
+            e = document.querySelector(".navigation");
+            if (t && e) {
+                t = t.offsetLeft - (e.offsetWidth - t.offsetWidth) / 2;
+                e.scrollTo({
+                    left: t,
+                    behavior: "smooth"
+                });
+            }
+        }
+    }
+})
+    , $("body").on("click", ".headerDetailToggle", function () {
+        var e = $(this).data("hide"),
+            t = $(this).data("show");
+        $("." + e).removeClass("menuable__content__active"), $("." + t).toggleClass("menuable__content__active")
+    }), $(document).click(function (e) {
+        $(e.target).closest(".eventMessage").length || $(".headNotificationDrpDn").removeClass("menuable__content__active").fadeOut()
+    }), $(".notif_tab a").on("click", function (e) {
+        e.preventDefault(), $(".notif_tab .tabs__item").removeClass("tabs__item--active"), $(this).addClass("tabs__item--active");
+        e = $(this).data("target");
+        switch ($(".head_tabs__content.notifTabCont").css("display", "none"), e) {
+            case "system":
+                $(".head_tabs__content.notifTabCont#system").css("display", "block");
+                break;
+            case "event":
+                $(".head_tabs__content.notifTabCont#event").css("display", "block");
+                break;
+            case "personal":
+                $(".head_tabs__content.notifTabCont#personal").css("display", "block");
+                break;
+            default:
+                $(".head_tabs__content.notifTabCont").css("display", "none")
+        }
+    }), $(window).on("load", function () {
+        $("#home_popup").is(":visible") && $("body, html").addClass("modal-open"), $("#vip_popup").is(":visible") && $("body, html").addClass("modal-open");
+        var e = document.querySelector(".swiper-container1");
+        e && e.querySelectorAll("img").forEach(e => {
+            e.removeAttribute("loading")
+        })
+    }), $("body").on("click", ".sunnyImg .closeBtn", function () {
+        $("body, html").removeClass("modal-open")
+    });
+var tdElements = document.querySelectorAll(".ifscCode"),
+    custom__mobileFooter = (tdElements.forEach(function (e) {
+        var t = e.textContent,
+            o = t.match(/[a-zA-Z]/g);
+        null !== o && (document.createElement("span").textContent = o.join(""), e.innerHTML = t.replace(/[a-zA-Z]/g, function (e) {
+            return "<span>" + e + "</span>"
+        }))
+    }), 1 == $("#myreferralTableTableBody").find("tr").length ? $("#myreferralTable").addClass("tr__data") : $("#myreferralTable").removeClass("tr__data"), $("body").on("click", ".acc_return, .tabs__div", function () {
+        $(".date_content input").val(""), $(".casino_filter, .slots_filter").show(), $(".casino_filter_reset, .slots_filter_reset").hide()
+    }), $("body").on("click", ".refresh_balance", function () {
+        $(".refresh_balance").removeClass("refreshed"), $(".loading__cnt_main").show(), $(".wallet_balance, .totalExposure").hide(), setTimeout(() => {
+            $(".refresh_balance").addClass("refreshed"), $(".loading__cnt_main").hide(), $(".wallet_balance, .totalExposure").show()
+        }, 1500)
+    }), $("body").on("click", ".drawerHeader a, .rightDrawerHolder .nav-setting-card, .rightDrawerHolder ul.ulioi li", function () {
+        $(".rightDrawerHolder").css("transform", "translateX(350px)")
+    }), $("body").on("click", ".mybet_btn", function () {
+        $(this).addClass("active").siblings("li").removeClass("active");
+        var e = $(this).attr("data-type");
+        "cancelled" === e ? $(".mybets_wrapper").addClass("canceled__tab").removeClass("voided_tab lapsed_tab") : "voided" === e ? $(".mybets_wrapper").removeClass("canceled__tab lapsed_tab").addClass("voided_tab") : "lapsed" === e ? $(".mybets_wrapper").removeClass("canceled__tab voided_tab").addClass("lapsed_tab") : $(".mybets_wrapper").removeClass("canceled__tab voided_tab lapsed_tab")
+    }), jQuery(function (e) {
+        e(".scrolling_sec").on("scroll", function () {
+            (e(this).scrollTop() + e(this).innerHeight() >= e(this)[0].scrollHeight ? (e(".top__arrow__dep").show(), e(".down__arrow__dep")) : (e(".down__arrow__dep").show(), e(".top__arrow__dep"))).hide()
+        })
+    }), $("#transfer-amount").keypress(function (e) {
+        if (8 != e.which && 0 != e.which && (e.which < 48 || 57 < e.which)) return !1
+    }))
+function loader(type) {
+    return true;
+}
+$('#withdraw_account_name').on('input', function () {
+    var inputValue = $(this).val();
+    var alphabeticRegex = /^[a-zA-Z\s]+$/; // Allow spaces (\s)
+    if (!alphabeticRegex.test(inputValue)) {
+        $(this).val(inputValue.replace(/[^a-zA-Z\s]/g, ''));
+    }
+});
+
+$("body").on("keyup", "input", function () {
+    $(this).parents(".form-group").find(".error-container").hide()
+})
+$('#withdraw input#withdraw_amount').on("cut copy paste", function (e) {
+    e.preventDefault();
+});
+$('body').on('click', '.number-box-wrapp', function () {
+    var input = $(this).find('#userCoin').get(0);
+    input.setSelectionRange(input.value.length, input.value.length);
+});
+$(window).on("load", function () {
+    if ($("#home_popup").is(":visible") || $("#vip_popup").is(":visible") || $("#cashBack_before_deposit_popup_id").is(":visible")) {
+        $("body, html").addClass("modal-open");
+    }
+
+    var pathname = window.location.pathname;
+    if (pathname.includes('/ex/d/inplay')) {
+        $('.sports_wrap_slider li').find('span').removeClass('active_border');
+        $('.sports_wrap_slider li.in--play').addClass('active');
+        $('.sports_wrap_slider li.in--play').find('span').addClass('active_border');
+    }
+
+    $(".sportsbook_page_skeleton").hide()
+});
+$('body').on('click', '.vip__top__arrow', function () {
+    $("#vip_popup .spinWinInfo").animate({ scrollTop: $('#vip_popup .spinWinInfo').height() }, 1000);
+    $('.vip__down__arrow').hide();
+    $(this).hide();
+});
+$('#vip_popup .spinWinInfo').on('scroll', function () {
+    var scrollTop = $(this).scrollTop();
+    if (scrollTop + $(this).innerHeight() >= this.scrollHeight) {
+        $('.vip__top__arrow').hide();
+    } else if (scrollTop <= 0) {
+        $('.vip__top__arrow').show();
+    }
+});
+$("body").on("click", ".sunnyImg .closeBtn", function () {
+    $("body, html").removeClass("modal-open");
+})
+$(document).click(function () {
+    if ($('.login___popup:visible').length === 1) {
+        $('.mobile_footer_new').addClass('hide__state');
+    } else {
+        $('.mobile_footer_new').removeClass('hide__state');
+    }
+});
+$('.pad__phonekhelo').on('input', function () {
+    $(this).val($(this).val().replace(/[^0-9]/g, ''));
+});
+$('.login___popup .verify_account input').on('keyup', function () {
+    var inputValue = $(this).val();
+    $(this).val($(this).val().replace(/[^0-9]/g, ''));
+    if (inputValue.length > 1) {
+        $(this).val(inputValue.charAt(0));
+    }
+});
+$('input.otpNumberFp').on('focus', function () {
+    var input = $(this);
+    setTimeout(function () {
+        var val = input.val();
+        input.val('').val(val);
+    }, 0);
+});
+var isMobile = false;
+if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i)) || (navigator.userAgent.match(/Android/i)) || (navigator.userAgent.match(/Blackberry/i)) || (navigator.userAgent.match(/Windows Phone/i))) {
+    isMobile = true;
+    $(".v-marquee").on("mouseenter", (function () { $(this).children(".running").addClass("running") }));
+    $(".v-marquee").on("mouseleave", (function () { $(this).children(".running").addClass("running") }));
+    setTimeout(() => {
+        $('.v-marquee').addClass('mobile__marquee');
+    }, 2000);
+
+    $('body').on('click', '.v-marquee', function () {
+        $(this).toggleClass('pause__marquee');
+    });
+} else {
+    $(".v-marquee").on("mouseenter", (function () { $(this).children(".running").removeClass("running").addClass("pause") })), $(".v-marquee").on("mouseleave", (function () { $(this).children(".pause").removeClass("pause").addClass("running") }))
+    $('.v-marquee').removeClass('mobile__marquee');
+    $('body').on('click', '.v-marquee', function () {
+        $(this).removeClass('pause__marquee');
+    });
+}
+$(document).click(function () {
+    if ($('.login___popup').is(':visible')) {
+        $('html, body').addClass('log__pop__opened')
+    }
+});
+$('body').on('click', '.modal.win__market', function () {
+    $('body, html').removeClass('win__modal');
+    $(this).removeClass('show').css('display', 'none');
+});
+$('body').on('click', '#aj_n_pp .modal-content', function (e) {
+    e.stopPropagation();
+});
+exchOverflow()
+function exchOverflow() {
+    var pathname = window.location.pathname;
+    if (pathname.includes('/ex')) {
+        $('body').addClass('exch_overflow')
+    }
+}
+function setTopFilter() {
+    let mobheader_height = $('.mobile_header_rj').outerHeight(true);
+    $('.live_video_section').css('top', mobheader_height);
+}
+setTimeout(() => {
+    setTopFilter();
+}, 100);
+$(window).on("resize", function () { setTopFilter(); })
+
+$("body").on('click', '.bets-btn', function () {
+    $('header').css('z-index', 99999);
+});
+$("body").on('click', '.betback', function () {
+    $('header').css('z-index', "");
+});
+$("#login_khelo_username,#userNameKhelo").on("keypress input", function (e) { 1 || e.preventDefault() })
+
+let yearNode = document.getElementById("currentYear");
+if (yearNode) {
+    yearNode.innerText = new Date().getFullYear();
+}
+
+$(".accountPageTab a").on("click", function () {
+    var dataIdValue = $(this).data("id");
+    if (dataIdValue === "promotionHistory") {
+        $('.hr_homeWidgetWrapper_txt').text("PROMOTION HISTORY");
+    } else if (dataIdValue === "rewardCashback") {
+        $('.hr_homeWidgetWrapper_txt').text("REWARD");
+    }
+    else if (dataIdValue === "mybonus") {
+        $('.hr_homeWidgetWrapper_txt').text("MY BONUS");
+    } else if (dataIdValue === "myreferral") {
+        $('.hr_homeWidgetWrapper_txt').text("MY REFERRAL");
+    }
+    else if (dataIdValue === "systemMsg") {
+        $('.hr_homeWidgetWrapper_txt').text("SYSTEM BULLETIN");
+    } else if (dataIdValue === "eventMsg") {
+        $('.hr_homeWidgetWrapper_txt').text("EVENT ANNOUNCEMENT");
+    } else if (dataIdValue === "personalMsg") {
+        $('.hr_homeWidgetWrapper_txt').text("PERSONAL MESSAGE");
+    }
+    else if (dataIdValue === "userProfileDiv") {
+        $('.hr_homeWidgetWrapper_txt').text("PROFILE");
+    } else if (dataIdValue === "profileBankDiv") {
+        $('.hr_homeWidgetWrapper_txt').text("BANK DETAILS");
+    }
+});
+
+$("body").on("click", ".jrk_parent_content .cricket_league", function () {
+    var e = $(this);
+    e.parent(".jrk_parent_content").addClass("show");
+    if (e.parent().hasClass("show")) {
+        e.siblings(".acc_bet_content").toggle();
+        e.find("img").toggleClass("rotate_arrow");
+    }
+});
+
+$("body").on("click", ".btn-select", function () { $(this).hasClass("active-btn-select") ? ($(this).removeClass("active-btn-select"), $(this).find(".coins").removeClass("settingActive")) : (5 == $("#stakeSet").find(".active-btn-select").length && ($("#stakeSet").find(".settingActive").first().removeClass("settingActive"), $("#stakeSet").find(".active-btn-select").first().removeClass("active-btn-select")), $(this).addClass("active-btn-select"), $(this).find(".coins").addClass("settingActive")) })
+
+var swiper = new Swiper(".swiper_banner_sec", {
+    slidesPerView: "auto",
+    spaceBetween: 10,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    breakpoints: {
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+        },
+        1024: {
+            slidesPerView: 1.7,
+            spaceBetween: 20,
+        },
+        2000: {
+            slidesPerView: 1.7,
+            spaceBetween: 20,
+        },
+    },
+});
+setTimeout(() => {
+    scrollToCenter();
+}, 500);
+
+function scrollToCenter() {
+    var pathname = window.location.pathname;
+    if ($(".MobToolbar").length === 1) {
+        if (pathname.includes('/live-casino')) {
+            let activeItem = $(".MobToolbar li.actives");
+            $(".navbar-scroll").scrollLeft($(".navbar-scroll").prop("scrollWidth")).width();
+            var e = activeItem.offset().left - $(".navbar-scroll").width() / 2;
+            $(".navbar-scroll").scrollLeft($(".navbar-scroll").scrollLeft() + e);
+        }
+    }
+}
+
+$('body').on('click', '#forgotModalClose', function () {
+    $('html,body').removeClass('bg_overflow');
+});
+
+$('.loosing_bonus,.activate_btn').on('click', function () {
+    $("body, html").addClass("bg_overflow");
+});
+$(document).click(function () {
+    if ($('#lowBalance_addMoney_popup_id .lowBalContainer').is(':visible')) {
+        $('.khelostar_footer').addClass('foot__hide');
+    } else {
+        $('.khelostar_footer').removeClass('foot__hide');
+    }
+});
+$('body').on('click', '#goToSetting', function () {
+    $('.sports_details .video_box').addClass('video__zindex');
+})
+$('body').on('click', '.settings-page .settingback', function () {
+    $('.sports_details .video_box').removeClass('video__zindex');
+});
+
+$("body").on("click", ".bets-btn", function () {
+    $("#betsPopList").html("");
+    $(".common_loaderPop").show();
+    $(".openbets-pop").addClass("modal-open-bet");
+    $("#betsPopList").load("/ex/headerGetBets/" + $(".openbets-pop").find(".activee").attr("target"), function () {
+        $(".common_loaderPop").hide();
+        $("html").addClass("no_overflow");
+    });
+    $("html").addClass("hedz");
+});
+
+$("body").on("click", ".betback", function () {
+    $(".openbets-pop").removeClass("modal-open-bet");
+    $("html").removeClass("no_overflow");
+});
+
+$(".open-bets-main .acc-match-btn").click(function () {
+    $("#betsPopList").html("");
+    $(".common_loaderPop").show();
+    $(".open-bets-main .acc-match-btn").removeClass("activee");
+    $(this).addClass("activee");
+    $(".open-bets-main .accordion-wrapper").hide();
+    $("#betsPopList").load("/ex/headerGetBets/" + $(this).attr("target"), function () {
+        $(".common_loaderPop").hide();
+    });
+});
+
+// $(".inplay_main .inplay-wrapper").hide();
+// $(".inplay_main #play-info1").hide();
+// $(".inplay_main .acc-match-btn").click(function () {
+//     $(".inplay_main .acc-match-btn").removeClass("activee");
+//     $(this).addClass("activee");
+//     $(".inplay_main .inplay-wrapper").hide();
+//     $(".inplay_main #play-info" + $(this).attr("target")).show();
+// });
+
+$(".tab-wrapper").hide();
+$("#race-info1").show();
+$(".race-button").click(function () {
+    $(".race-button").removeClass("active-default");
+    $(this).addClass("active-default");
+    $(".tab-wrapper").hide();
+    $("#race-info" + $(this).attr("target")).show();
+});
+
+$(".market-btn").click(function () {
+    $(".market-btn").removeClass("active_default");
+    $(this).addClass("active_default");
+    $(".sports-accordion-content").hide();
+    $("#sports-info" + $(this).attr("target")).show();
+});
+
+$(".accordion_details").hide();
+$("body").on("click", ".SportsList", function (e) {
+    e.preventDefault();
+    $(this).closest(".sports-accordion-details").toggleClass("active");
+});
+$('body').on('click', '.accordion-head', function (event) {
+    $(this).closest('.accordion-wrapper').toggleClass("active").siblings('.accordion-wrapper').removeClass('active');
+});
+
+$(".horse-contry .accordion-content").hide();
+$("#shadow-box").show();
+
+
+
+$('body').on('click', '.cancleBets', function () {
+    $(this).attr('data-id');
+    $('.CancelUnmatchedBets').attr('data-id', $(this).attr('data-id'));
+    $('.cancel-unmatch').show();
+    $('.openbets-pop').css('overflow', 'hidden');
+});
+$('body').on('click', '.close-button', function () {
+    $('.cancel-unmatch').hide();
+    $('.openbets-pop').css('overflow', 'auto');
+});
+$('body').on('click', '.CancelUnmatchedBets', function () {
+    var id = {};
+    id[0] = $(this).attr('data-id');
+    $.ajax({
+        type: 'post',
+        url: '/ex/api/cancelAllBet',
+        data: { 'id': id, '_token': $('meta[name="csrf-token"]').attr('content') },
+        success: function (data) {
+            notify(data.message, 'success');
+            $('.close-button').click();
+            $('.tab-button .unmatched').click();
+        }
+    });
+});
+$('body').on('keypress', '.coin_edit,#userCoin', function (evt) {
+    var iKeyCode = (evt.which) ? evt.which : evt.keyCode
+    if (iKeyCode != 46 && iKeyCode > 31 && (iKeyCode < 48 || iKeyCode > 57)) {
+        return false;
+    }
+    return true;
+});
+$("body").on("keyup", "#userCoin,.coin_edit", function (e) {
+    var err = 0;
+    if (/\D/g.test($(this).val())) {
+        $(this).val() = $(this).val().replace(/\D/g, "");
+    }
+    if ($(this).val() < 2000) {
+        var err = 1;
+        notify("minimum limit is 2000.");
+    }
+    if ($(this).val() > 1000000) {
+        var err = 1;
+        notify("maximum limit is 1000000.");
+        $(this).val(1000000).blur();
+        return false;
+    }
+    if (err == 1) {
+        $("#settingSave, #goToEditStake").prop("disabled", true).addClass("disable");
+    } else {
+        $("#settingSave, #goToEditStake").prop("disabled", false).removeClass("disable");
+    }
+});
+$("body").on("keyup change", ".settingEditNum", function () {
+    if (/\D/g.test(this.value)) {
+        this.value = this.value.replace(/\D/g, "");
+    }
+    var err = 0;
+    if ($(this).val() == "") {
+        notify("Edited fields can`t be empty.");
+        err = 1;
+    }
+    if ($(this).val() < 2000) {
+        notify('minimum limit is 2000.', 'danger', 800);
+        err = 1;
+    }
+    if ($(this).val() > 1000000) {
+        err = 1;
+        notify('minimum limit is 1000000.', 'danger', 800);
+        $(this).val($(this).val().slice(0, -1));
+    }
+    if (err == 1) {
+        $("#goToEditStake").prop("disabled", true).addClass("disable");
+    } else {
+        $("#goToEditStake").prop("disabled", false).removeClass("disable");
+    }
+});
+$('body').on('click', '#goToEditStake', function () {
+    var coinValue = [];
+    $.each($('.coin_edit'), function (k, v) {
+
+        if (!$(v).val()) {
+            return false;
+        }
+        if ($(v).val() == '') {
+            notify('Edited fields can`t be empty.');
+            return false;
+        }
+        if ($(v).val() < 2000) {
+            notify('minimum limit is 2000.', 'danger', 800);
+            return false;
+        }
+
+        if ($(v).val() > 1000000) {
+            notify('minimum limit is 1000000.', 'danger', 800);
+            $(v).val($(v).val().slice(0, -1));
+            return false;
+        }
+
+        const value = parseFloat($(v).val());
+        coinValue.push(value);
+
+        const isUnique = coinValue.length === new Set(coinValue).size;
+
+        if (!isUnique) {
+            notify('Amount should be unique.', 'danger', 800);
+            $('.stakes-input').show();
+            $('.edit-stakes').hide();
+            $('.stakes-multiselect').hide();
+            return false;
+        } else {
+            $('.stakes-input').hide();
+            $('.edit-stakes').show();
+            $('.stakes-multiselect').show();
+        }
+    })
+    $.each(coinValue.sort(sortmyway), function (k, v) {
+        $('.coins:eq(' + k + ')').html(v)
+    })
+})
+$('body').on('click', '.submit-stakes', function () {
+    $('.stakes-multiselect').show()
+    $('.stakes-input').hide()
+    var statkeval = $('.stakes-input input').val()
+})
+$('body').on('click', '.edit-stakes', function () {
+    $(this).hide();
+    $('.stakes-multiselect').hide();
+    $.each($('.coins'), function (k, v) {
+        $('#' + $(v).data('id')).val($(v).html())
+    })
+    $('.stakes-input').show();
+})
+function sortmyway(data_A, data_B) {
+    return (data_A - data_B);
+}
+function validateInput(input) {
+    let value = input.value.toString();
+    let valuezero = value.charAt(0);
+
+    if (valuezero === '0') {
+        input.value = '';
+        return;
+    }
+
+    if (value.charAt(5) === '.' || value.charAt(6) === '.') {
+        input.value = value.slice(0, 5 + (value.charAt(6) === '.' ? 1 : 0));
+        return;
+    }
+    if ((value.match(/\./g) || []).length > 1) {
+        const firstDotIndex = value.indexOf('.');
+        input.value = value.slice(0, firstDotIndex + 1) + value.slice(firstDotIndex + 1).replace(/\./g, '');
+        return;
+    }
+
+    let numericValue = parseInt(value);
+    if (numericValue > 1000000) {
+        input.value = '1000000';
+        notify("Maximum amount is 10 lakhs")
+    } else {
+        input.value = value;
+    }
+
+    let dotIndex = value.indexOf('.');
+    if (dotIndex !== -1) {
+        let integerPart = value.slice(0, dotIndex);
+        let decimalPart = value.slice(dotIndex + 1);
+        if (decimalPart.length > 2) {
+            input.value = `${integerPart}.${decimalPart.slice(0, 2)}`;
+        }
+    }
+}
+
+// To prevent drag events on anchor tags
+let getAllAnchorTags = document.querySelectorAll("a");
+let preventDragEvent = function (event) {
+    event.preventDefault()
+};
+getAllAnchorTags.forEach(function (link) {
+    link.addEventListener("dragstart", preventDragEvent);
+})
+
+// setTimeout(() => {
+//     var origin = window.location.origin;
+//     var targetHref = $("a.targetHref").attr("href");
+//     var targetPath = new URL(targetHref, origin).pathname;
+//     $(".sports_wrap_slider a").each(function () {
+//         $('.sports_wrap_slider li.allItem').removeClass('active');
+//         var currentHref = $(this).attr("href");
+//         var currentPath = new URL(currentHref, origin).pathname;
+//         if (targetPath === currentPath) {
+//             $(".active_border").css("opacity", "0");
+//             $(this).find(".item").append('<span class="active_border" style="opacity:1"></span>');
+//             $(this).parent().addClass('active');
+//             $('.sports_wrap_slider li.allItem').removeClass('allItem');
+//         }
+//     });
+//     var pathname = window.location.pathname;
+//     if (pathname.includes('/ex/d/home')) {
+//         $('.sports_wrap_slider li.allItem').addClass('active');
+//     }
+// }, 800);
+
+var scrollToTopBtn = $("#scroll_top");
+
+$("body").on("click", ".show_scrl", function (event) {
+    event.preventDefault();
+    $("html, body").animate({ scrollTop: 0 }, 500);
+});
+
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 500) {
+        scrollToTopBtn.addClass("show_scrl");
+    } else {
+        scrollToTopBtn.removeClass("show_scrl");
+    }
+});
+
+function initializeSwiper(selector, options) {
+    const swiperContainer = document.querySelector(selector);
+    if (swiperContainer) {
+        new Swiper(swiperContainer, options);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', function () {
+    // Initialize Swiper for .swiper-container1
+    initializeSwiper(".swiper-container1", {
+        loop: true,
+        spaceBetween: 20,
+        autoplay: {
+            delay: 1800,
+            disableOnInteraction: false
+        },
+        navigation: {
+            nextEl: ".swiper-button-prev",
+            prevEl: ".swiper-button-next"
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 3
+            },
+            768: {
+                slidesPerView: 4
+            },
+            1024: {
+                slidesPerView: 6
+            },
+            1300: {
+                slidesPerView: 8
+            }
+        }
+    });
+
+    // Initialize Swiper for .swiper-container_testi
+    initializeSwiper(".swiper-container_testi", {
+        loop: false,
+        autoplay: {
+            delay: 1800,
+            disableOnInteraction: false
+        },
+        breakpoints: {
+            0: {
+                slidesPerView: 1
+            },
+            480: {
+                slidesPerView: 2
+            },
+            768: {
+                slidesPerView: 2
+            },
+            1024: {
+                slidesPerView: 3
+            },
+            1300: {
+                slidesPerView: 4
+            }
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        },
+        navigation: {
+            nextEl: "#swiper-button-next",
+            prevEl: "#swiper-button-prev"
+        }
+    });
+
+    // Initialize Swiper for .slider_banner
+    initializeSwiper(".slider_banner", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        grabCursor: true,
+        speed: 500,
+        autoplay: {
+            delay: 3000
+        },
+        pagination: {
+            el: ".slider__pagination",
+            clickable: true
+        },
+        navigation: {
+            nextEl: ".slider__button-next",
+            prevEl: ".slider__button-prev"
+        }
+    });
+
+    // Initialize Swiper for #live_matches_slider
+    initializeSwiper("#live_matches_slider", {
+        slidesPerView: 2.5,
+        centeredSlides: false,
+        spaceBetween: 25,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        },
+        breakpoints: {
+            280: {
+                slidesPerView: "auto",
+                centeredSlides: false
+            },
+            360: {
+                slidesPerView: "auto",
+                centeredSlides: false
+            },
+            599: {
+                slidesPerView: "auto",
+                centeredSlides: false
+            },
+            600: {
+                slidesPerView: 1.2,
+                centeredSlides: false
+            },
+            768: {
+                slidesPerView: 1.2,
+                centeredSlides: false,
+                spaceBetween: 10
+            },
+            1024: {
+                slidesPerView: 1.5,
+                centeredSlides: false,
+                spaceBetween: 25
+            },
+            1180: {
+                slidesPerView: 2.5,
+                centeredSlides: false,
+                spaceBetween: 25
+            },
+            1280: {
+                slidesPerView: 2.5,
+                centeredSlides: false,
+                spaceBetween: 25
+            }
+        }
+    });
+
+    // Initialize Swiper for #recommended_slider
+    initializeSwiper("#recommended_slider", {
+        slidesPerView: 2.5,
+        centeredSlides: false,
+        spaceBetween: 25,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        },
+        breakpoints: {
+            280: {
+                slidesPerView: "auto",
+                centeredSlides: false
+            },
+            360: {
+                slidesPerView: "auto",
+                centeredSlides: false
+            },
+            599: {
+                slidesPerView: "auto",
+                centeredSlides: false
+            },
+            600: {
+                slidesPerView: 1.2,
+                centeredSlides: false
+            },
+            768: {
+                slidesPerView: 1.2,
+                centeredSlides: false,
+                spaceBetween: 10
+            },
+            1024: {
+                slidesPerView: 1.5,
+                centeredSlides: false,
+                spaceBetween: 25
+            },
+            1180: {
+                slidesPerView: 2.5,
+                centeredSlides: false,
+                spaceBetween: 25
+            },
+            1280: {
+                slidesPerView: 2.5,
+                centeredSlides: false,
+                spaceBetween: 25
+            }
+        }
+    });
+
+    // Initialize Swiper for #esports_slider
+    initializeSwiper("#esports_slider", {
+        slidesPerView: 2.5,
+        centeredSlides: false,
+        spaceBetween: 25,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        },
+        breakpoints: {
+            280: {
+                slidesPerView: "auto",
+                centeredSlides: false
+            },
+            360: {
+                slidesPerView: "auto",
+                centeredSlides: false
+            },
+            599: {
+                slidesPerView: "auto",
+                centeredSlides: false
+            },
+            600: {
+                slidesPerView: 1.2,
+                centeredSlides: false
+            },
+            768: {
+                slidesPerView: 1.2,
+                centeredSlides: false,
+                spaceBetween: 10
+            },
+            1024: {
+                slidesPerView: 1.5,
+                centeredSlides: false,
+                spaceBetween: 25
+            },
+            1180: {
+                slidesPerView: 2.5,
+                centeredSlides: false,
+                spaceBetween: 25
+            },
+            1280: {
+                slidesPerView: 2.5,
+                centeredSlides: false,
+                spaceBetween: 25
+            }
+        }
+    });
+
+    // Initialize Swiper for #casino_tour_slider
+    initializeSwiper("#casino_tour_slider", {
+        slidesPerView: "auto",
+        spaceBetween: 20,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+        }
+    });
+});
+

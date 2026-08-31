@@ -1,0 +1,13 @@
+[     766ms] [ERROR] Access to manifest at 'https://khelo24bet7.com/manifest.json?bid=2&ic=&name=khelo24bet' from origin 'http://localhost:8080' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:8080/index.html:3716
+[     766ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://khelo24bet7.com/manifest.json?bid=2&ic=&name=khelo24bet:0
+[     946ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:8080/index.html:0
+[     947ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:8080/index.html:0
+[     947ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:8080/index.html:0
+[     947ms] [VERBOSE] [DOM] Password field is not contained in a form: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:8080/index.html:0
+[     947ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:8080/index.html:0
+[     947ms] [VERBOSE] [DOM] Multiple forms should be contained in their own form elements; break up complex forms into ones that represent a single action: (More info: https://goo.gl/9p2vKq) %o @ http://localhost:8080/index.html:0
+[    1419ms] [ERROR] Access to manifest at 'https://khelo24bet7.com/manifest.json?bid=2&ic=&name=khelo24bet' from origin 'http://localhost:8080' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:8080/index.html:0
+[    1419ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://khelo24bet7.com/manifest.json?bid=2&ic=&name=khelo24bet:0
+[    1427ms] [WARNING] <meta name="apple-mobile-web-app-capable" content="yes"> is deprecated. Please include <meta name="mobile-web-app-capable" content="yes"> @ http://localhost:8080/index.html:0
+[  538205ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.whatsapp.com/data/manifest.json:0
+[  538331ms] [ERROR] Manifest fetch from https://api.whatsapp.com/data/manifest.json failed, code 404 @ https://api.whatsapp.com/send?phone=447473989428&text=I%20want%20New%20Reddyanna%20%20Id%20!!!!!!!!!!!!!!:0

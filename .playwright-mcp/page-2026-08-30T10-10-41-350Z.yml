@@ -1,0 +1,1387 @@
+- generic [active] [ref=f3e1]:
+  - generic [ref=f3e4]:
+    - generic:  
+    - generic: 
+    - generic: 
+    - generic: 
+    - generic: 
+    - generic: 
+    - generic: 
+    - generic [ref=f3e5]:
+      - text:    
+      - banner [ref=f3e6]:
+        - generic [ref=f3e9]:
+          - img "logo" [ref=f3e12] [cursor=pointer]
+          - generic [ref=f3e13]:
+            - generic [ref=f3e14]:
+              - generic:
+                - generic:
+                  - link "LOGIN" [ref=f3e15]:
+                    - /url: https://wa.link/reddyanna_
+                    - button "LOGIN"
+                  - link "REGISTER" [ref=f3e16]:
+                    - /url: https://wa.link/reddyanna_
+                    - button "REGISTER"
+            - generic [ref=f3e17]:
+              - link "":
+                - /url: "#"
+            - img "Country Selector" [ref=f3e22]
+            - generic [ref=f3e24] [cursor=pointer]:
+              - generic "Quick Menu" [ref=f3e25]: 
+              - complementary [ref=f3e27]:
+                - generic [ref=f3e28]:
+                  - generic: 
+                  - img "logo" [ref=f3e31]
+                - generic [ref=f3e32]:
+                  - list [ref=f3e33]:
+                    - listitem [ref=f3e34]:
+                      - link "VIP":
+                        - /url: https://khelo24bet7.com/casino-vip
+                  - list [ref=f3e35]:
+                    - listitem [ref=f3e36]:
+                      - link "About Us":
+                        - /url: https://khelo24bet7.com/aboutus
+                    - listitem [ref=f3e37]:
+                      - link "Terms & Conditions":
+                        - /url: https://khelo24bet7.com/termsandcondition
+                    - listitem [ref=f3e38]:
+                      - link "Privacy Policy":
+                        - /url: https://khelo24bet7.com/privacypolicy
+                    - listitem [ref=f3e39]:
+                      - link "FAQ":
+                        - /url: https://khelo24bet7.com/faq
+                    - listitem [ref=f3e40]:
+                      - link "Disconnection Policy":
+                        - /url: https://khelo24bet7.com/disconnectionpolicy
+                    - listitem [ref=f3e41]:
+                      - link "Promotions":
+                        - /url: https://khelo24bet7.com/promotions
+                    - listitem [ref=f3e42]:
+                      - link "Support":
+                        - /url: "#"
+        - generic [ref=f3e45]:
+          - list [ref=f3e46]:
+            - listitem [ref=f3e47]:
+              - link "icon icon Exchange":
+                - /url: https://khelo24bet7.com/ex/d/home
+                - generic:
+                  - img "icon"
+                  - img "icon"
+                - generic: Exchange
+            - listitem [ref=f3e48]:
+              - link "icon icon Sportsbook":
+                - /url: https://khelo24bet7.com/sb/upcoming
+                - generic:
+                  - img "icon"
+                  - img "icon"
+                - generic: Sportsbook
+            - listitem [ref=f3e49]:
+              - link "icon icon Live Casino":
+                - /url: https://khelo24bet7.com/live-casino
+                - generic:
+                  - img "icon"
+                  - img "icon"
+                - generic: Live Casino
+            - listitem [ref=f3e50]:
+              - link "icon icon Slots":
+                - /url: https://khelo24bet7.com/slots
+                - generic:
+                  - img "icon"
+                  - img "icon"
+                - generic: Slots
+            - listitem [ref=f3e51]:
+              - link "icon icon Tournaments":
+                - /url: https://khelo24bet7.com/tournaments
+                - generic:
+                  - img "icon"
+                  - img "icon"
+                - generic: Tournaments
+            - listitem [ref=f3e52]:
+              - link "icon icon Promotions":
+                - /url: https://khelo24bet7.com/promotions
+                - generic:
+                  - img "icon"
+                  - img "icon"
+                - generic: Promotions
+          - generic: 
+      - generic: 
+      - main [ref=f3e54]:
+        - generic [ref=f3e55]:
+          - generic [ref=f3e56]:
+            - generic [ref=f3e58]:
+              - generic [ref=f3e59]:
+                - group "1 / 10" [ref=f3e60] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e62]
+                - group "2 / 10" [ref=f3e63] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e65]
+                - group "3 / 10" [ref=f3e66] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e68]
+                - group "4 / 10" [ref=f3e69] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e71]
+                - group "5 / 10" [ref=f3e72] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e74]
+                - group "6 / 10" [ref=f3e75] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e77]
+                - group "7 / 10" [ref=f3e78] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e80]
+                - group "8 / 10" [ref=f3e81] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e83]
+                - group "9 / 10" [ref=f3e84] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e86]
+                - group "10 / 10" [ref=f3e87] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e89]
+                - group "1 / 10" [ref=f3e90] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e92]
+                - group "2 / 10" [ref=f3e93] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e95]
+                - group "3 / 10" [ref=f3e96] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e98]
+                - group "4 / 10" [ref=f3e99] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e101]
+                - group "5 / 10" [ref=f3e102] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e104]
+                - group "6 / 10" [ref=f3e105] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e107]
+                - group "7 / 10" [ref=f3e108] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e110]
+                - group "8 / 10" [ref=f3e111] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e113]
+                - group "9 / 10" [ref=f3e114] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e116]
+                - group "10 / 10" [ref=f3e117] [cursor=pointer]:
+                  - img "Promotion-banner" [ref=f3e119]
+              - generic [ref=f3e120]:
+                - button "Go to slide 1"
+                - button "Go to slide 2"
+                - button "Go to slide 3"
+                - button "Go to slide 4"
+                - button "Go to slide 5"
+                - button "Go to slide 6"
+                - button "Go to slide 7"
+                - button "Go to slide 8"
+                - button "Go to slide 9"
+                - button "Go to slide 10"
+            - list [ref=f3e124]:
+              - listitem [ref=f3e125]:
+                - generic [ref=f3e126]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e127]:
+                - generic [ref=f3e128]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e129]:
+                - generic [ref=f3e130]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e131]:
+                - generic [ref=f3e132]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e133]:
+                - generic [ref=f3e134]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e135]:
+                - generic [ref=f3e136]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e137]:
+                - generic [ref=f3e138]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e139]:
+                - generic [ref=f3e140]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e141]:
+                - generic [ref=f3e142]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e143]:
+                - generic [ref=f3e144]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e145]:
+                - generic [ref=f3e146]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e147]:
+                - generic [ref=f3e148]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e149]:
+                - generic [ref=f3e150]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e151]:
+                - generic [ref=f3e152]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e153]:
+                - generic [ref=f3e154]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e155]:
+                - generic [ref=f3e156]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e157]:
+                - generic [ref=f3e158]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e159]:
+                - generic [ref=f3e160]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e161]:
+                - generic [ref=f3e162]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e163]:
+                - generic [ref=f3e164]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e165]:
+                - generic [ref=f3e166]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e167]:
+                - generic [ref=f3e168]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e169]:
+                - generic [ref=f3e170]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e171]:
+                - generic [ref=f3e172]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e173]:
+                - generic [ref=f3e174]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e175]:
+                - generic [ref=f3e176]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e177]:
+                - generic [ref=f3e178]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e179]:
+                - generic [ref=f3e180]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e181]:
+                - generic [ref=f3e182]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e183]:
+                - generic [ref=f3e184]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e185]:
+                - generic [ref=f3e186]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e187]:
+                - generic [ref=f3e188]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e189]:
+                - generic [ref=f3e190]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e191]:
+                - generic [ref=f3e192]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e193]:
+                - generic [ref=f3e194]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e195]:
+                - generic [ref=f3e196]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e197]:
+                - generic [ref=f3e198]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e199]:
+                - generic [ref=f3e200]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e201]:
+                - generic [ref=f3e202]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e203]:
+                - generic [ref=f3e204]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e205]:
+                - generic [ref=f3e206]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e207]:
+                - generic [ref=f3e208]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e209]:
+                - generic [ref=f3e210]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e211]:
+                - generic [ref=f3e212]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e213]:
+                - generic [ref=f3e214]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e215]:
+                - generic [ref=f3e216]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e217]:
+                - generic [ref=f3e218]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e219]:
+                - generic [ref=f3e220]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e221]:
+                - generic [ref=f3e222]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e223]:
+                - generic [ref=f3e224]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e225]:
+                - generic [ref=f3e226]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e227]:
+                - generic [ref=f3e228]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e229]:
+                - generic [ref=f3e230]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e231]:
+                - generic [ref=f3e232]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e233]:
+                - generic [ref=f3e234]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e235]:
+                - generic [ref=f3e236]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e237]:
+                - generic [ref=f3e238]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+              - listitem [ref=f3e239]:
+                - generic [ref=f3e240]: "Welcome Bonus:"
+                - text: 100 % Welcome Bonus on first deposit! Hurry up
+              - listitem [ref=f3e241]:
+                - generic [ref=f3e242]: "Affiliate Partnership:"
+                - text: Explore the amazing affiliate program to earn money as you refer !
+              - listitem [ref=f3e243]:
+                - generic [ref=f3e244]: "Referral Bonus:"
+                - text: Great satisfaction comes from sharing with others. Invite your friends and families from your referral code and get rewarded ₹300 each.
+          - generic [ref=f3e245]:
+            - generic [ref=f3e248] [cursor=pointer]:
+              - generic [ref=f3e249]:
+                - group "4 / 5":
+                  - img "Promotional Poster Banner"
+                - group "5 / 5":
+                  - img "Promotional Poster Banner"
+                - group "1 / 5":
+                  - img "Promotional Poster Banner"
+                - group "2 / 5":
+                  - img "Promotional Poster Banner"
+                - group "3 / 5" [ref=f3e250]:
+                  - img "Promotional Poster Banner" [ref=f3e251]
+              - generic [ref=f3e252]:
+                - button "Go to slide 1"
+                - button "Go to slide 2"
+                - button "Go to slide 3"
+                - button "Go to slide 4"
+                - button "Go to slide 5"
+            - generic [ref=f3e255]:
+              - generic [ref=f3e257]:
+                - group "1 / 10" [ref=f3e258]:
+                  - generic [ref=f3e260]:
+                    - img "Netwin-Banner-Billionaire" [ref=f3e263]
+                    - generic [ref=f3e264]:
+                      - generic [ref=f3e265]:
+                        - generic [ref=f3e266]: VEN****11
+                        - generic [ref=f3e267]:
+                          - generic [ref=f3e268]: INR
+                          - generic [ref=f3e269]: "18220.87"
+                      - generic [ref=f3e270]:
+                        - generic [ref=f3e271]: Penguin City
+                        - generic [ref=f3e272]: a day ago
+                - group "2 / 10" [ref=f3e273]:
+                  - generic [ref=f3e275]:
+                    - img "Netwin-Banner-Billionaire" [ref=f3e278]
+                    - generic [ref=f3e279]:
+                      - generic [ref=f3e280]:
+                        - generic [ref=f3e281]: SAH****11
+                        - generic [ref=f3e282]:
+                          - generic [ref=f3e283]: INR
+                          - generic [ref=f3e284]: "44853.82"
+                      - generic [ref=f3e285]:
+                        - generic [ref=f3e286]: Golden fishtank
+                        - generic [ref=f3e287]: a day ago
+                - group "3 / 10" [ref=f3e288]:
+                  - generic [ref=f3e290]:
+                    - img "Netwin-Banner-Billionaire" [ref=f3e293]
+                    - generic [ref=f3e294]:
+                      - generic [ref=f3e295]:
+                        - generic [ref=f3e296]: PAR****11
+                        - generic [ref=f3e297]:
+                          - generic [ref=f3e298]: INR
+                          - generic [ref=f3e299]: "36695.15"
+                      - generic [ref=f3e300]:
+                        - generic [ref=f3e301]: Sunset Reels Pull
+                        - generic [ref=f3e302]: a day ago
+                - group "4 / 10" [ref=f3e303]:
+                  - generic [ref=f3e305]:
+                    - img "Netwin-Banner-Billionaire" [ref=f3e308]
+                    - generic [ref=f3e309]:
+                      - generic [ref=f3e310]:
+                        - generic [ref=f3e311]: D ****11
+                        - generic [ref=f3e312]:
+                          - generic [ref=f3e313]: INR
+                          - generic [ref=f3e314]: "48493.44"
+                      - generic [ref=f3e315]:
+                        - generic [ref=f3e316]: Tree of Riches
+                        - generic [ref=f3e317]: a day ago
+                - group "5 / 10" [ref=f3e318]:
+                  - generic [ref=f3e320]:
+                    - img "Netwin-Banner-Billionaire" [ref=f3e323]
+                    - generic [ref=f3e324]:
+                      - generic [ref=f3e325]:
+                        - generic [ref=f3e326]: SHR****11
+                        - generic [ref=f3e327]:
+                          - generic [ref=f3e328]: INR
+                          - generic [ref=f3e329]: "32502.2"
+                      - generic [ref=f3e330]:
+                        - generic [ref=f3e331]: Money Matrix
+                        - generic [ref=f3e332]: a day ago
+                - group "6 / 10" [ref=f3e333]:
+                  - generic [ref=f3e335]:
+                    - img "Netwin-Banner-Billionaire" [ref=f3e338]
+                    - generic [ref=f3e339]:
+                      - generic [ref=f3e340]:
+                        - generic [ref=f3e341]: ABD****11
+                        - generic [ref=f3e342]:
+                          - generic [ref=f3e343]: INR
+                          - generic [ref=f3e344]: "18386.25"
+                      - generic [ref=f3e345]:
+                        - generic [ref=f3e346]: Triple Lion (Progressive Jackpot)
+                        - generic [ref=f3e347]: a day ago
+                - group "7 / 10" [ref=f3e348]:
+                  - generic [ref=f3e350]:
+                    - img "Netwin-Banner-Billionaire" [ref=f3e353]
+                    - generic [ref=f3e354]:
+                      - generic [ref=f3e355]:
+                        - generic [ref=f3e356]: ARU****11
+                        - generic [ref=f3e357]:
+                          - generic [ref=f3e358]: INR
+                          - generic [ref=f3e359]: "49620.03"
+                      - generic [ref=f3e360]:
+                        - generic [ref=f3e361]: 888 Dragons
+                        - generic [ref=f3e362]: a day ago
+                - group "8 / 10" [ref=f3e363]:
+                  - generic [ref=f3e365]:
+                    - img "Netwin-Banner-Billionaire" [ref=f3e368]
+                    - generic [ref=f3e369]:
+                      - generic [ref=f3e370]:
+                        - generic [ref=f3e371]: MEH****11
+                        - generic [ref=f3e372]:
+                          - generic [ref=f3e373]: INR
+                          - generic [ref=f3e374]: "12302.54"
+                      - generic [ref=f3e375]:
+                        - generic [ref=f3e376]: Triple Jokers
+                        - generic [ref=f3e377]: a day ago
+                - group "9 / 10" [ref=f3e378]:
+                  - generic [ref=f3e380]:
+                    - img "Netwin-Banner-Billionaire" [ref=f3e383]
+                    - generic [ref=f3e384]:
+                      - generic [ref=f3e385]:
+                        - generic [ref=f3e386]: ARA****11
+                        - generic [ref=f3e387]:
+                          - generic [ref=f3e388]: INR
+                          - generic [ref=f3e389]: "48808.61"
+                      - generic [ref=f3e390]:
+                        - generic [ref=f3e391]: Super Diamond Deluxe
+                        - generic [ref=f3e392]: a day ago
+                - group "10 / 10" [ref=f3e393]:
+                  - generic [ref=f3e395]:
+                    - img "Netwin-Banner-Billionaire" [ref=f3e398]
+                    - generic [ref=f3e399]:
+                      - generic [ref=f3e400]:
+                        - generic [ref=f3e401]: TAM****11
+                        - generic [ref=f3e402]:
+                          - generic [ref=f3e403]: INR
+                          - generic [ref=f3e404]: "36640.63"
+                      - generic [ref=f3e405]:
+                        - generic [ref=f3e406]: Win Sprint
+                        - generic [ref=f3e407]: a day ago
+              - generic [ref=f3e409]:
+                - group "1 / 10" [ref=f3e410]:
+                  - generic [ref=f3e412]:
+                    - 'img "Netwin-Banner-Lara Croft: Temples and Tombs" [ref=f3e415]'
+                    - generic [ref=f3e416]:
+                      - generic [ref=f3e417]:
+                        - generic [ref=f3e418]: PRA****22
+                        - generic [ref=f3e419]:
+                          - generic [ref=f3e420]: INR
+                          - generic [ref=f3e421]: "35279.71"
+                      - generic [ref=f3e422]:
+                        - generic [ref=f3e423]: Catch the Waves
+                        - generic [ref=f3e424]: a day ago
+                - group "2 / 10" [ref=f3e425]:
+                  - generic [ref=f3e427]:
+                    - 'img "Netwin-Banner-Lara Croft: Temples and Tombs" [ref=f3e430]'
+                    - generic [ref=f3e431]:
+                      - generic [ref=f3e432]:
+                        - generic [ref=f3e433]: ARI****22
+                        - generic [ref=f3e434]:
+                          - generic [ref=f3e435]: INR
+                          - generic [ref=f3e436]: "37620.33"
+                      - generic [ref=f3e437]:
+                        - generic [ref=f3e438]: Super Lucky Frog
+                        - generic [ref=f3e439]: a day ago
+                - group "3 / 10" [ref=f3e440]:
+                  - generic [ref=f3e442]:
+                    - 'img "Netwin-Banner-Lara Croft: Temples and Tombs" [ref=f3e445]'
+                    - generic [ref=f3e446]:
+                      - generic [ref=f3e447]:
+                        - generic [ref=f3e448]: SHA****22
+                        - generic [ref=f3e449]:
+                          - generic [ref=f3e450]: INR
+                          - generic [ref=f3e451]: "23429.23"
+                      - generic [ref=f3e452]:
+                        - generic [ref=f3e453]: "Diamond Mine: Extra Gold Megawaysn TM"
+                        - generic [ref=f3e454]: a day ago
+                - group "4 / 10" [ref=f3e455]:
+                  - generic [ref=f3e457]:
+                    - 'img "Netwin-Banner-Lara Croft: Temples and Tombs" [ref=f3e460]'
+                    - generic [ref=f3e461]:
+                      - generic [ref=f3e462]:
+                        - generic [ref=f3e463]: DEE****22
+                        - generic [ref=f3e464]:
+                          - generic [ref=f3e465]: INR
+                          - generic [ref=f3e466]: "35398.23"
+                      - generic [ref=f3e467]:
+                        - generic [ref=f3e468]: God of Wealth (Progressive Jackpot)
+                        - generic [ref=f3e469]: a day ago
+                - group "5 / 10" [ref=f3e470]:
+                  - generic [ref=f3e472]:
+                    - 'img "Netwin-Banner-Lara Croft: Temples and Tombs" [ref=f3e475]'
+                    - generic [ref=f3e476]:
+                      - generic [ref=f3e477]:
+                        - generic [ref=f3e478]: PAR****22
+                        - generic [ref=f3e479]:
+                          - generic [ref=f3e480]: INR
+                          - generic [ref=f3e481]: "29396.74"
+                      - generic [ref=f3e482]:
+                        - generic [ref=f3e483]: Wicked Circus
+                        - generic [ref=f3e484]: a day ago
+                - group "6 / 10" [ref=f3e485]:
+                  - generic [ref=f3e487]:
+                    - 'img "Netwin-Banner-Lara Croft: Temples and Tombs" [ref=f3e490]'
+                    - generic [ref=f3e491]:
+                      - generic [ref=f3e492]:
+                        - generic [ref=f3e493]: BAF****22
+                        - generic [ref=f3e494]:
+                          - generic [ref=f3e495]: INR
+                          - generic [ref=f3e496]: "21322.06"
+                      - generic [ref=f3e497]:
+                        - generic [ref=f3e498]: Big Wheel
+                        - generic [ref=f3e499]: a day ago
+                - group "7 / 10" [ref=f3e500]:
+                  - generic [ref=f3e502]:
+                    - 'img "Netwin-Banner-Lara Croft: Temples and Tombs" [ref=f3e505]'
+                    - generic [ref=f3e506]:
+                      - generic [ref=f3e507]:
+                        - generic [ref=f3e508]: ISH****22
+                        - generic [ref=f3e509]:
+                          - generic [ref=f3e510]: INR
+                          - generic [ref=f3e511]: "49932.81"
+                      - generic [ref=f3e512]:
+                        - generic [ref=f3e513]: Jewel Strike
+                        - generic [ref=f3e514]: a day ago
+                - group "8 / 10" [ref=f3e515]:
+                  - generic [ref=f3e517]:
+                    - 'img "Netwin-Banner-Lara Croft: Temples and Tombs" [ref=f3e520]'
+                    - generic [ref=f3e521]:
+                      - generic [ref=f3e522]:
+                        - generic [ref=f3e523]: SAL****22
+                        - generic [ref=f3e524]:
+                          - generic [ref=f3e525]: INR
+                          - generic [ref=f3e526]: "15074.87"
+                      - generic [ref=f3e527]:
+                        - generic [ref=f3e528]: Wish Upon a Leprechaun Megaways
+                        - generic [ref=f3e529]: a day ago
+                - group "9 / 10" [ref=f3e530]:
+                  - generic [ref=f3e532]:
+                    - 'img "Netwin-Banner-Lara Croft: Temples and Tombs" [ref=f3e535]'
+                    - generic [ref=f3e536]:
+                      - generic [ref=f3e537]:
+                        - generic [ref=f3e538]: SUM****22
+                        - generic [ref=f3e539]:
+                          - generic [ref=f3e540]: INR
+                          - generic [ref=f3e541]: "46445.68"
+                      - generic [ref=f3e542]:
+                        - generic [ref=f3e543]: Egyptian Fortunes
+                        - generic [ref=f3e544]: a day ago
+                - group "10 / 10" [ref=f3e545]:
+                  - generic [ref=f3e547]:
+                    - 'img "Netwin-Banner-Lara Croft: Temples and Tombs" [ref=f3e550]'
+                    - generic [ref=f3e551]:
+                      - generic [ref=f3e552]:
+                        - generic [ref=f3e553]: SHA****22
+                        - generic [ref=f3e554]:
+                          - generic [ref=f3e555]: INR
+                          - generic [ref=f3e556]: "31035.64"
+                      - generic [ref=f3e557]:
+                        - generic [ref=f3e558]: Pirates Frenzy
+                        - generic [ref=f3e559]: a day ago
+          - generic [ref=f3e560]:
+            - list [ref=f3e564]:
+              - listitem [ref=f3e565] [cursor=pointer]: All
+              - listitem [ref=f3e566] [cursor=pointer]: Promo
+              - listitem [ref=f3e567] [cursor=pointer]: Andar Bahar
+              - listitem [ref=f3e568] [cursor=pointer]: Teenpatti
+              - listitem [ref=f3e569] [cursor=pointer]: Roulette
+              - listitem [ref=f3e570] [cursor=pointer]: Dragon Tiger
+              - listitem [ref=f3e571] [cursor=pointer]: Poker
+            - generic [ref=f3e572]:
+              - generic [ref=f3e573]:
+                - generic [ref=f3e576]:
+                  - heading [level=2] [ref=f3e577]:
+                    - strong [ref=f3e578]: Recommended Games
+                  - generic [ref=f3e579]:
+                    - generic [ref=f3e581]:
+                      - group "1 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic: jacktop
+                                - link "Play Real" [ref=f3e582]:
+                                  - /url: "#login-popup"
+                                - generic: Space Ball Roulette
+                      - group "2 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Bonus Wheel
+                                    - text: ✦ ✦ ✦ ✦
+                                - generic: winmatch
+                                - link "Play Real" [ref=f3e583]:
+                                  - /url: "#login-popup"
+                                - generic: Royal Andar Bahar
+                      - group "3 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic: Multipliers Unlocked!!
+                                - generic: winmatch
+                                - link "Play Real" [ref=f3e584]:
+                                  - /url: "#login-popup"
+                                - generic: Royal Roulette
+                      - group "4 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic: pigaboom
+                                - link "Play Real" [ref=f3e585]:
+                                  - /url: "#login-popup"
+                                - generic: Pigaboom
+                      - group "5 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic: spribe
+                                - link "Play Real" [ref=f3e586]:
+                                  - /url: "#login-popup"
+                                - generic: Aviator
+                      - group "6 / 8" [ref=f3e587]:
+                        - generic [ref=f3e591] [cursor=pointer]:
+                          - generic [ref=f3e592]: 🎮
+                          - generic [ref=f3e594]: Recommended
+                          - generic [ref=f3e596]: betongames
+                          - link "Play Real" [ref=f3e598]:
+                            - /url: "#login-popup"
+                          - generic [ref=f3e599]: Astronaut GO
+                      - group "7 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic: aviatrix
+                                - link "Play Real" [ref=f3e601]:
+                                  - /url: "#login-popup"
+                                - generic: Aviatrix Second chance
+                      - group "8 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic: Featured
+                                - generic: bgaming
+                                - link "Play Real" [ref=f3e602]:
+                                  - /url: "#login-popup"
+                                - generic: Aviamasters
+                      - group "1 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic: jacktop
+                                - link "Play Real" [ref=f3e603]:
+                                  - /url: "#login-popup"
+                                - generic: Space Ball Roulette
+                      - group "2 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - paragraph: Bonus Wheel
+                                    - text: ✦ ✦ ✦ ✦
+                                - generic: winmatch
+                                - link "Play Real" [ref=f3e604]:
+                                  - /url: "#login-popup"
+                                - generic: Royal Andar Bahar
+                      - group "3 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic: Multipliers Unlocked!!
+                                - generic: winmatch
+                                - link "Play Real" [ref=f3e605]:
+                                  - /url: "#login-popup"
+                                - generic: Royal Roulette
+                      - group "4 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic: pigaboom
+                                - link "Play Real" [ref=f3e606]:
+                                  - /url: "#login-popup"
+                                - generic: Pigaboom
+                      - group "5 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic: spribe
+                                - link "Play Real" [ref=f3e607]:
+                                  - /url: "#login-popup"
+                                - generic: Aviator
+                      - group "6 / 8" [ref=f3e608]:
+                        - generic [ref=f3e612] [cursor=pointer]:
+                          - generic [ref=f3e613]: 🎮
+                          - generic [ref=f3e615]: Recommended
+                          - generic [ref=f3e617]: betongames
+                          - link "Play Real" [ref=f3e619]:
+                            - /url: "#login-popup"
+                          - generic [ref=f3e620]: Astronaut GO
+                      - group "7 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic: aviatrix
+                                - link "Play Real" [ref=f3e622]:
+                                  - /url: "#login-popup"
+                                - generic: Aviatrix Second chance
+                      - group "8 / 8":
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic: 🎮
+                                - generic: Featured
+                                - generic: bgaming
+                                - link "Play Real" [ref=f3e623]:
+                                  - /url: "#login-popup"
+                                - generic: Aviamasters
+                    - button: 
+                    - button: 
+                  - group "1 / 1" [ref=f3e626]
+                - generic [ref=f3e628]:
+                  - generic [ref=f3e632] [cursor=pointer]:
+                    - generic [ref=f3e633]: 🎮
+                    - img "Aviatrix Aviatrix Second chance" [ref=f3e636]
+                    - generic [ref=f3e637]: Aviatrix
+                    - link "Play Real" [ref=f3e639]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e640]: Aviatrix Second chance
+                  - generic [ref=f3e645] [cursor=pointer]:
+                    - generic [ref=f3e646]: 🎮
+                    - img "1spin4win Cash N Spins 243" [ref=f3e649]
+                    - generic [ref=f3e650]: 1spin4win
+                    - link "Play Real" [ref=f3e652]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e653]: Cash N Spins 243
+                  - generic [ref=f3e658] [cursor=pointer]:
+                    - generic [ref=f3e659]: 🎮
+                    - img "Jacktop Jungle Hippo" [ref=f3e662]
+                    - generic [ref=f3e663]: Jacktop
+                    - link "Play Real" [ref=f3e665]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e666]: Jungle Hippo
+                  - generic [ref=f3e671] [cursor=pointer]:
+                    - generic [ref=f3e672]: 🎮
+                    - img "Jacktop Blade Masters" [ref=f3e675]
+                    - generic [ref=f3e676]: Jacktop
+                    - link "Play Real" [ref=f3e678]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e679]: Blade Masters
+                  - generic [ref=f3e682] [cursor=pointer]:
+                    - generic [ref=f3e683]: Recommended
+                    - generic [ref=f3e685]:
+                      - generic [ref=f3e686]: 🎮
+                      - img "Betongames Secrets of Machu Picchu" [ref=f3e689]
+                      - generic [ref=f3e690]: Betongames
+                      - link "Play Real" [ref=f3e692]:
+                        - /url: "#login-popup"
+                      - generic [ref=f3e693]: Secrets of Machu Picchu
+                  - generic [ref=f3e698] [cursor=pointer]:
+                    - generic [ref=f3e699]: 🎮
+                    - img "Jacktop Lucky Chicken Crossing" [ref=f3e702]
+                    - generic [ref=f3e703]: Jacktop
+                    - link "Play Real" [ref=f3e705]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e706]: Lucky Chicken Crossing
+                  - text: 🎮 🎮
+              - generic [ref=f3e708]:
+                - generic [ref=f3e712] [cursor=pointer]:
+                  - generic [ref=f3e713]: 🎮
+                  - img "Bgames Fruit Fire 7's" [ref=f3e716]
+                  - generic [ref=f3e717]: Bgames
+                  - link "Play Real" [ref=f3e719]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e720]: Fruit Fire 7's
+                - generic [ref=f3e723] [cursor=pointer]:
+                  - paragraph [ref=f3e726]: Hot
+                  - generic [ref=f3e727]: Recommended
+                  - generic [ref=f3e729]:
+                    - generic [ref=f3e730]: 🎮
+                    - img "Betongames Bario Jet" [ref=f3e733]
+                    - generic [ref=f3e734]: Betongames
+                    - link "Play Real" [ref=f3e736]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e737]: Bario Jet
+                - generic [ref=f3e742] [cursor=pointer]:
+                  - generic [ref=f3e743]: 🎮
+                  - img "Jacktop Space Ball Roulette" [ref=f3e746]
+                  - generic [ref=f3e747]: Jacktop
+                  - link "Play Real" [ref=f3e749]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e750]: Space Ball Roulette
+                - generic [ref=f3e753] [cursor=pointer]:
+                  - generic [ref=f3e754]: Multipliers Unlocked!!
+                  - generic [ref=f3e756]:
+                    - generic [ref=f3e757]: 🎮
+                    - img "Winmatch Winmatch EZ Dealer Roulette" [ref=f3e760]
+                    - generic [ref=f3e761]: Winmatch
+                    - link "Play Real" [ref=f3e763]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e764]: Winmatch EZ Dealer Roulette
+                - generic [ref=f3e767] [cursor=pointer]:
+                  - generic [ref=f3e768]:
+                    - paragraph [ref=f3e770]: Bonus Wheel
+                    - text: ✦ ✦ ✦ ✦
+                  - generic [ref=f3e772]:
+                    - generic [ref=f3e773]: 🎮
+                    - img "Winmatch Royal Andar Bahar" [ref=f3e776]
+                    - generic [ref=f3e777]: Winmatch
+                    - link "Play Real" [ref=f3e779]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e780]: Royal Andar Bahar
+                - generic [ref=f3e785] [cursor=pointer]:
+                  - generic [ref=f3e786]: 🎮
+                  - img "Ezugi Teen Patti" [ref=f3e789]
+                  - generic [ref=f3e790]: Ezugi
+                  - link "Play Real" [ref=f3e792]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e793]: Teen Patti
+                - generic [ref=f3e796] [cursor=pointer]:
+                  - generic [ref=f3e797]: Recommended
+                  - generic [ref=f3e799]:
+                    - generic [ref=f3e800]: 🎮
+                    - img "Evolution Ice Fishing" [ref=f3e803]
+                    - generic [ref=f3e804]: Evolution
+                    - link "Play Real" [ref=f3e806]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e807]: Ice Fishing
+                - generic [ref=f3e812] [cursor=pointer]:
+                  - generic [ref=f3e813]: 🎮
+                  - img "Ezugi Bet On Teenpatti" [ref=f3e816]
+                  - generic [ref=f3e817]: Ezugi
+                  - link "Play Real" [ref=f3e819]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e820]: Bet On Teenpatti
+                - generic [ref=f3e823] [cursor=pointer]:
+                  - generic [ref=f3e824]: Multipliers Unlocked!!
+                  - generic [ref=f3e826]:
+                    - generic [ref=f3e827]: 🎮
+                    - img "Winmatch Royal Roulette" [ref=f3e830]
+                    - generic [ref=f3e831]: Winmatch
+                    - link "Play Real" [ref=f3e833]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e834]: Royal Roulette
+                - generic [ref=f3e839] [cursor=pointer]:
+                  - generic [ref=f3e840]: 🎮
+                  - img "Bgames skyward" [ref=f3e843]
+                  - generic [ref=f3e844]: Bgames
+                  - link "Play Real" [ref=f3e846]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e847]: skyward
+                - generic [ref=f3e852] [cursor=pointer]:
+                  - generic [ref=f3e853]: 🎮
+                  - img "Jacktop Andar Bahar" [ref=f3e856]
+                  - generic [ref=f3e857]: Jacktop
+                  - link "Play Real" [ref=f3e859]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e860]: Andar Bahar
+                - generic [ref=f3e865] [cursor=pointer]:
+                  - generic [ref=f3e866]: 🎮
+                  - img "Ezugi One Day Teen Patti" [ref=f3e869]
+                  - generic [ref=f3e870]: Ezugi
+                  - link "Play Real" [ref=f3e872]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e873]: One Day Teen Patti
+                - generic [ref=f3e878] [cursor=pointer]:
+                  - generic [ref=f3e879]: 🎮
+                  - img "Jacktop Roulette" [ref=f3e882]
+                  - generic [ref=f3e883]: Jacktop
+                  - link "Play Real" [ref=f3e885]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e886]: Roulette
+                - generic [ref=f3e891] [cursor=pointer]:
+                  - generic [ref=f3e892]: 🎮
+                  - img "Elcasino Roulette x1001" [ref=f3e895]
+                  - generic [ref=f3e896]: Elcasino
+                  - link "Play Real" [ref=f3e898]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e899]: Roulette x1001
+                - generic [ref=f3e904] [cursor=pointer]:
+                  - generic [ref=f3e905]: 🎮
+                  - img "Evolution Evolution Gaming Lobby" [ref=f3e908]
+                  - generic [ref=f3e909]: Evolution
+                  - link "Play Real" [ref=f3e911]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e912]: Evolution Gaming Lobby
+                - generic [ref=f3e917] [cursor=pointer]:
+                  - generic [ref=f3e918]: 🎮
+                  - img "Bgames Flash Roulette" [ref=f3e921]
+                  - generic [ref=f3e922]: Bgames
+                  - link "Play Real" [ref=f3e924]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e925]: Flash Roulette
+                - generic [ref=f3e930] [cursor=pointer]:
+                  - generic [ref=f3e931]: 🎮
+                  - img "Elcasino Candyball Roulette" [ref=f3e934]
+                  - generic [ref=f3e935]: Elcasino
+                  - link "Play Real" [ref=f3e937]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e938]: Candyball Roulette
+                - generic [ref=f3e941] [cursor=pointer]:
+                  - generic [ref=f3e942]:
+                    - paragraph [ref=f3e944]: Promo
+                    - text: ✦ ✦ ✦ ✦
+                  - generic [ref=f3e946]:
+                    - generic [ref=f3e947]: 🎮
+                    - img "Smartsoft Propel X" [ref=f3e950]
+                    - generic [ref=f3e951]: Smartsoft
+                    - link "Play Real" [ref=f3e953]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e954]: Propel X
+                - generic [ref=f3e959] [cursor=pointer]:
+                  - generic [ref=f3e960]: 🎮
+                  - img "Pigaboom Pigaboom" [ref=f3e963]
+                  - generic [ref=f3e964]: Pigaboom
+                  - link "Play Real" [ref=f3e966]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e967]: Pigaboom
+                - generic [ref=f3e970] [cursor=pointer]:
+                  - paragraph [ref=f3e973]: Early Access
+                  - generic [ref=f3e975]:
+                    - generic [ref=f3e976]: 🎮
+                    - img "Bgames Citrus Splash Deluxe" [ref=f3e979]
+                    - generic [ref=f3e980]: Bgames
+                    - link "Play Real" [ref=f3e982]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e983]: Citrus Splash Deluxe
+                - generic [ref=f3e986] [cursor=pointer]:
+                  - generic [ref=f3e987]: Early Access
+                  - generic [ref=f3e989]:
+                    - generic [ref=f3e990]: 🎮
+                    - img "Bgames Skyward Storm" [ref=f3e993]
+                    - generic [ref=f3e994]: Bgames
+                    - link "Play Real" [ref=f3e996]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e997]: Skyward Storm
+                - generic [ref=f3e1002] [cursor=pointer]:
+                  - generic [ref=f3e1003]: 🎮
+                  - img "Lambdagaming Avion" [ref=f3e1006]
+                  - generic [ref=f3e1007]: Lambdagaming
+                  - link "Play Real" [ref=f3e1009]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e1010]: Avion
+                - generic [ref=f3e1015] [cursor=pointer]:
+                  - generic [ref=f3e1016]: 🎮
+                  - img "Spribe Aviator" [ref=f3e1019]
+                  - generic [ref=f3e1020]: Spribe
+                  - link "Play Real" [ref=f3e1022]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e1023]: Aviator
+                - generic [ref=f3e1028] [cursor=pointer]:
+                  - generic [ref=f3e1029]: 🎮
+                  - img "Aviatrix Aviatrix Mines" [ref=f3e1032]
+                  - generic [ref=f3e1033]: Aviatrix
+                  - link "Play Real" [ref=f3e1035]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e1036]: Aviatrix Mines
+                - generic [ref=f3e1039] [cursor=pointer]:
+                  - generic [ref=f3e1040]: Recommended
+                  - generic [ref=f3e1042]:
+                    - generic [ref=f3e1043]: 🎮
+                    - img "Betongames Astronaut GO" [ref=f3e1046]
+                    - generic [ref=f3e1047]: Betongames
+                    - link "Play Real" [ref=f3e1049]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e1050]: Astronaut GO
+                - generic [ref=f3e1053] [cursor=pointer]:
+                  - generic [ref=f3e1054]:
+                    - paragraph [ref=f3e1056]: Promo
+                    - text: ✦ ✦ ✦ ✦
+                  - generic [ref=f3e1058]:
+                    - generic [ref=f3e1059]: 🎮
+                    - img "Smartsoft JetX" [ref=f3e1062]
+                    - generic [ref=f3e1063]: Smartsoft
+                    - link "Play Real" [ref=f3e1065]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e1066]: JetX
+                - generic [ref=f3e1071] [cursor=pointer]:
+                  - generic [ref=f3e1072]: 🎮
+                  - img "1spin4win Hot Coins & Fruits 100" [ref=f3e1075]
+                  - generic [ref=f3e1076]: 1spin4win
+                  - link "Play Real" [ref=f3e1078]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e1079]: Hot Coins & Fruits 100
+                - generic [ref=f3e1082] [cursor=pointer]:
+                  - generic [ref=f3e1083]: Featured
+                  - generic [ref=f3e1085]:
+                    - generic [ref=f3e1086]: 🎮
+                    - img "Bgaming Aviamasters" [ref=f3e1089]
+                    - generic [ref=f3e1090]: Bgaming
+                    - link "Play Real" [ref=f3e1092]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e1093]: Aviamasters
+                - generic [ref=f3e1096] [cursor=pointer]:
+                  - generic [ref=f3e1097]:
+                    - paragraph [ref=f3e1099]: Promo
+                    - text: ✦ ✦ ✦ ✦
+                  - generic [ref=f3e1101]:
+                    - generic [ref=f3e1102]: 🎮
+                    - img "Smartsoft HelicopterX" [ref=f3e1105]
+                    - generic [ref=f3e1106]: Smartsoft
+                    - link "Play Real" [ref=f3e1108]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e1109]: HelicopterX
+                - generic [ref=f3e1112] [cursor=pointer]:
+                  - generic [ref=f3e1113]: Featured
+                  - generic [ref=f3e1115]:
+                    - generic [ref=f3e1116]: 🎮
+                    - img "Bgaming Balloon Mania" [ref=f3e1119]
+                    - generic [ref=f3e1120]: Bgaming
+                    - link "Play Real" [ref=f3e1122]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e1123]: Balloon Mania
+                - generic [ref=f3e1128] [cursor=pointer]:
+                  - generic [ref=f3e1129]: 🎮
+                  - img "1spin4win Classic Chilli Hold And Win" [ref=f3e1132]
+                  - generic [ref=f3e1133]: 1spin4win
+                  - link "Play Real" [ref=f3e1135]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e1136]: Classic Chilli Hold And Win
+                - generic [ref=f3e1141] [cursor=pointer]:
+                  - generic [ref=f3e1142]: 🎮
+                  - img "1spin4win Cash'n Spins 243 Plus" [ref=f3e1145]
+                  - generic [ref=f3e1146]: 1spin4win
+                  - link "Play Real" [ref=f3e1148]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e1149]: Cash'n Spins 243 Plus
+                - generic [ref=f3e1154] [cursor=pointer]:
+                  - generic [ref=f3e1155]: 🎮
+                  - img "Smartsoft Balloon" [ref=f3e1158]
+                  - generic [ref=f3e1159]: Smartsoft
+                  - link "Play Real" [ref=f3e1161]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e1162]: Balloon
+                - generic [ref=f3e1167] [cursor=pointer]:
+                  - generic [ref=f3e1168]: 🎮
+                  - img "1spin4win Lucky 2 Ways" [ref=f3e1171]
+                  - generic [ref=f3e1172]: 1spin4win
+                  - link "Play Real" [ref=f3e1174]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e1175]: Lucky 2 Ways
+                - generic [ref=f3e1180] [cursor=pointer]:
+                  - generic [ref=f3e1181]: 🎮
+                  - img "Smartsoft Foxy Hot 20" [ref=f3e1184]
+                  - generic [ref=f3e1185]: Smartsoft
+                  - link "Play Real" [ref=f3e1187]:
+                    - /url: "#login-popup"
+                  - generic [ref=f3e1188]: Foxy Hot 20
+                - generic [ref=f3e1191] [cursor=pointer]:
+                  - generic [ref=f3e1192]: Featured
+                  - generic [ref=f3e1194]:
+                    - generic [ref=f3e1195]: 🎮
+                    - img "Bgaming Wild Tiger" [ref=f3e1198]
+                    - generic [ref=f3e1199]: Bgaming
+                    - link "Play Real" [ref=f3e1201]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e1202]: Wild Tiger
+                - generic [ref=f3e1205] [cursor=pointer]:
+                  - generic [ref=f3e1206]: Recommended
+                  - generic [ref=f3e1208]:
+                    - generic [ref=f3e1209]: 🎮
+                    - img "1spin4win Retro Fruits 243 Fortune" [ref=f3e1212]
+                    - generic [ref=f3e1213]: 1spin4win
+                    - link "Play Real" [ref=f3e1215]:
+                      - /url: "#login-popup"
+                    - generic [ref=f3e1216]: Retro Fruits 243 Fortune
+              - generic [ref=f3e1218]:
+                - button "Load More Games":
+                  - generic:
+                    - text: Load More Games
+                    - generic: 
+            - generic [ref=f3e1221]:
+              - 'heading "Khelo24bet: Your Gateway to a Seamless Experience" [level=1] [ref=f3e1222]'
+              - generic [ref=f3e1223]:
+                - paragraph [ref=f3e1224]: Digital platforms are evolving rapidly. Users today want to use sites that are easy to handle and simple to follow. They also want fast response times and straightforward design. This is why platforms like us are now concentrating on smooth navigation and clean layouts. Moreover, users appreciate applications that offer a lot of features on one site. Hence, modern platforms try to provide ease and convenience simultaneously.
+                - paragraph [ref=f3e1225]: Khelo24bet takes these considerations into account and designs the platform to deliver a straightforward user experience. It does not confuse the user with many complex functions but rather offers simplicity to the user. For example, users can move from one section to another with ease without losing their way. The platform works on different devices. It becomes easy for both new and seasoned players.
+                - paragraph [ref=f3e1226]: User-friendly design plays a major role in a platform becoming more popular. Users can easily access what they are looking for. That is, no confusing steps. This makes Khelo24bet a great option for those who prioritise comfort and clarity.
+              - generic [ref=f3e1227]:
+                - group [ref=f3e1228]:
+                  - heading "What Is Khelo24bet?" [level=3] [ref=f3e1230] [cursor=pointer]
+                - group [ref=f3e1233]:
+                  - heading "How Does Khelo24bet Work?" [level=3] [ref=f3e1235] [cursor=pointer]
+                - group [ref=f3e1238]:
+                  - heading "Key Features of Khelo24bet" [level=3] [ref=f3e1240] [cursor=pointer]
+                - group [ref=f3e1243]:
+                  - heading "Khelo24bet Mobile Experience" [level=3] [ref=f3e1245] [cursor=pointer]
+                - group [ref=f3e1248]:
+                  - heading "Khelo24bet Registration and Login." [level=3] [ref=f3e1250] [cursor=pointer]
+                - group [ref=f3e1253]:
+                  - heading "Deposit and Withdrawal Experience on Khelo24bet" [level=3] [ref=f3e1255] [cursor=pointer]
+                - group [ref=f3e1258]:
+                  - heading "Interactive Titles and Categories" [level=3] [ref=f3e1260] [cursor=pointer]
+                - group [ref=f3e1263]:
+                  - heading "Khelo24bet Promotions and Loyalty Programs" [level=3] [ref=f3e1265] [cursor=pointer]
+                - group [ref=f3e1268]:
+                  - heading "Why People Trust Khelo24bet" [level=3] [ref=f3e1270] [cursor=pointer]
+                - group [ref=f3e1273]:
+                  - heading "Experience the Khelo24bet Platform With Confidence" [level=3] [ref=f3e1275] [cursor=pointer]
+            - generic [ref=f3e1280]:
+              - heading "Player Reviews" [level=2] [ref=f3e1281]
+              - generic [ref=f3e1282]:
+                - generic [ref=f3e1284]:
+                  - group "1 / 8" [ref=f3e1285]:
+                    - generic [ref=f3e1286]:
+                      - figure:
+                        - img "Mani Kanta - Testimonial"
+                      - paragraph [ref=f3e1288]: "\"Great casino. Easy to Play and superb on mobile. I registered an account and got the 100% welcome bonus with no issue whatsoever. They offer variety of games and slots. I would highly recommend this online casino.\""
+                      - generic [ref=f3e1289]: "- Mani Kanta"
+                  - group "2 / 8" [ref=f3e1290]:
+                    - generic [ref=f3e1291]:
+                      - figure:
+                        - img "Sasank - Testimonial"
+                      - paragraph [ref=f3e1293]: "\"Khelo24bet is definitely a trusted place to play at. They have really fair terms with low wagering requirements for bonuses. Great site! The website is pretty user-friendly and they also pay out really fast usually.\""
+                      - generic [ref=f3e1294]: "- Sasank"
+                  - group "3 / 8" [ref=f3e1295]:
+                    - generic [ref=f3e1296]:
+                      - figure:
+                        - img "Raghu - Testimonial"
+                      - paragraph [ref=f3e1298]: "\"I play on Khelo24bet regularly to earn more money. Using this site from past 2 years. Great customer services and withdrawal process.\""
+                      - generic [ref=f3e1299]: "- Raghu"
+                  - group "4 / 8" [ref=f3e1300]:
+                    - generic [ref=f3e1301]:
+                      - figure:
+                        - img "Naidu Saladu - Testimonial"
+                      - paragraph [ref=f3e1303]: "\"i am a frequent player on Khelo24bet and I enjoy playing casino & slots. They have easy deposit and withdraw process.\""
+                      - generic [ref=f3e1304]: "- Naidu Saladu"
+                  - group "5 / 8" [ref=f3e1305]:
+                    - generic [ref=f3e1306]:
+                      - figure:
+                        - img "Prashanth - Testimonial"
+                      - paragraph [ref=f3e1308]: "\"I enjoy playing here. It has Good Number of Casino Games. I've been playing since 2 years. This is a better site in terms of customer support and services as compared to others . I use it as one of my top 3.\""
+                      - generic [ref=f3e1309]: "- Prashanth"
+                  - group "6 / 8" [ref=f3e1310]:
+                    - generic [ref=f3e1311]:
+                      - figure:
+                        - img "Ayushi Raj - Testimonial"
+                      - paragraph [ref=f3e1313]: "\"Many thanks to Khelo24bet. I had excellent gaming experience, got welcome bonus. I mostly play poker, andhra bhar and roulette. This is the best casino site to earn some money.\""
+                      - generic [ref=f3e1314]: "- Ayushi Raj"
+                  - group "7 / 8" [ref=f3e1315]:
+                    - generic [ref=f3e1316]:
+                      - figure:
+                        - img "Akshay Chandra Paliwal - Testimonial"
+                      - paragraph [ref=f3e1318]: "\"Khelo24bet is a simple and easy to use site for online gambling like casino and fantasy games.I experienced instant withdrawal and payment services. I personally recommend this site to all\""
+                      - generic [ref=f3e1319]: "- Akshay Chandra Paliwal"
+                  - group "8 / 8" [ref=f3e1320]:
+                    - generic [ref=f3e1321]:
+                      - figure:
+                        - img "Rahul Jain - Testimonial"
+                      - paragraph [ref=f3e1323]: "\"I'm a long-time player at Khelo24bet. I don't get bored here because there are exciting challenges and a number of league tournaments happening everyday.\""
+                      - generic [ref=f3e1324]: "- Rahul Jain"
+                - text:  
+      - contentinfo [ref=f3e1325]:
+        - generic [ref=f3e1326]:
+          - generic [ref=f3e1327]:
+            - list [ref=f3e1328]:
+              - listitem [ref=f3e1329]:
+                - img "Khelo24bet Logo" [ref=f3e1331]
+                - paragraph [ref=f3e1332]: India's Best Online Casino Slot & Live Games
+                - paragraph [ref=f3e1333]: 18+Be Responsible
+              - listitem [ref=f3e1334]:
+                - heading "Menu" [level=3] [ref=f3e1335]
+                - list [ref=f3e1336]:
+                  - listitem [ref=f3e1337]:
+                    - link "Online Casino Games":
+                      - /url: https://khelo24bet7.com/live-casino
+                  - listitem [ref=f3e1338]:
+                    - link "Casino Bonus & Offers":
+                      - /url: https://khelo24bet7.com/promotions
+                  - listitem [ref=f3e1339]:
+                    - link "Jeet Privilege":
+                      - /url: https://khelo24bet7.com/Jeet-Privilege
+                  - listitem [ref=f3e1340]:
+                    - link "Affiliate":
+                      - /url: https://khelo24bet7.com/affiliate
+                  - listitem [ref=f3e1341]:
+                    - link "Tournaments":
+                      - /url: https://khelo24bet7.com/tournaments
+                  - listitem [ref=f3e1342]:
+                    - link "VIP":
+                      - /url: https://khelo24bet7.com/casino-vip
+                  - listitem [ref=f3e1343]:
+                    - link "Download App":
+                      - /url: "#"
+              - listitem [ref=f3e1344]:
+                - heading "Quick Links" [level=3] [ref=f3e1345]
+                - list [ref=f3e1346]:
+                  - listitem [ref=f3e1347]:
+                    - link "FAQ’s":
+                      - /url: https://khelo24bet7.com/faq
+                  - listitem [ref=f3e1348]:
+                    - link "Contact Us":
+                      - /url: https://khelo24bet7.com/contactus
+                  - listitem [ref=f3e1349]:
+                    - link "About Us":
+                      - /url: https://khelo24bet7.com/aboutus
+                  - listitem [ref=f3e1350]:
+                    - link "AML & KYC":
+                      - /url: https://khelo24bet7.com/kyc
+                  - listitem [ref=f3e1351]:
+                    - link "Responsible Gambling":
+                      - /url: https://khelo24bet7.com/responsible-gaming
+                  - listitem [ref=f3e1352]:
+                    - link "Privacy Policy":
+                      - /url: https://khelo24bet7.com/privacypolicy
+                  - listitem [ref=f3e1353]:
+                    - link "Terms & Conditions":
+                      - /url: https://khelo24bet7.com/termsandcondition
+              - listitem [ref=f3e1354]:
+                - heading "Get In Touch" [level=3] [ref=f3e1355]
+                - list [ref=f3e1356]:
+                  - listitem [ref=f3e1357]:
+                    - link "":
+                      - /url: https://www.facebook.com/profile.php?id=61577863913910
+                  - listitem [ref=f3e1358]:
+                    - link "":
+                      - /url: https://www.instagram.com/khelo24bet360/
+                  - listitem [ref=f3e1359]:
+                    - link:
+                      - /url: https://x.com/naresh_alp54422
+                  - listitem [ref=f3e1360]:
+                    - link "":
+                      - /url: https://in.pinterest.com/khelo24bet360/
+                - generic [ref=f3e1361]:
+                  - img "Toll Number"
+                  - generic [ref=f3e1362]:
+                    - heading "1800 103 4212" [level=4] [ref=f3e1363]
+                    - heading "1800 202 512" [level=4] [ref=f3e1364]
+            - text:   
+          - generic [ref=f3e1365]:
+            - generic [ref=f3e1366]:
+              - heading "Game Providers" [level=3] [ref=f3e1367]
+              - generic [ref=f3e1369]:
+                - group "3 / 8" [ref=f3e1370]:
+                  - link "RED":
+                    - /url: "#"
+                    - img "RED"
+                - group "4 / 8" [ref=f3e1371]:
+                  - link "BS":
+                    - /url: "#"
+                    - img "BS"
+                - group "5 / 8" [ref=f3e1372]:
+                  - link "VB":
+                    - /url: "#"
+                    - img "VB"
+                - group "6 / 8" [ref=f3e1373]:
+                  - link "NeGame":
+                    - /url: "#"
+                    - img "NeGame"
+                - group "7 / 8" [ref=f3e1374]:
+                  - link "Realistic":
+                    - /url: "#"
+                    - img "Realistic"
+                - group "8 / 8" [ref=f3e1375]:
+                  - link "Yggd":
+                    - /url: "#"
+                    - img "Yggd"
+                - group "1 / 8" [ref=f3e1376]:
+                  - link "xpg":
+                    - /url: "#"
+                    - img "xpg"
+                - group "2 / 8" [ref=f3e1377]:
+                  - link "BE":
+                    - /url: "#"
+                    - img "BE"
+            - generic [ref=f3e1379]:
+              - heading "Payment Methods" [level=3] [ref=f3e1380]
+              - list [ref=f3e1381]:
+                - listitem [ref=f3e1382]:
+                  - img "Bank"
+                - listitem [ref=f3e1383]:
+                  - img "Skrill"
+                - listitem [ref=f3e1384]:
+                  - img "Neteller"
+                - listitem [ref=f3e1385]:
+                  - img "Neteller"
+                - listitem [ref=f3e1386]:
+                  - img "Neteller"
+                - listitem [ref=f3e1387]:
+                  - img "Neteller"
+                - listitem [ref=f3e1388]:
+                  - img "Neteller"
+                - listitem [ref=f3e1389]:
+                  - img "Neteller"
+                - listitem [ref=f3e1390]:
+                  - img "Neteller"
+                - listitem [ref=f3e1391]:
+                  - img "phonepe"
+                - listitem [ref=f3e1392]:
+                  - img "upi"
+                - listitem [ref=f3e1393]:
+                  - img "worldpay"
+        - list [ref=f3e1397]:
+          - listitem [ref=f3e1398]: © 2026 khelo24bet7. All Rights Reserved.
+          - listitem [ref=f3e1399]:
+            - link "Terms & Condition":
+              - /url: https://khelo24bet7.com/termsandcondition
+          - listitem [ref=f3e1400]:
+            - link "AML & KYC":
+              - /url: https://khelo24bet7.com/kyc
+          - listitem [ref=f3e1401]:
+            - link "Responsible Gambling":
+              - /url: https://khelo24bet7.com/responsible-gaming
+          - listitem [ref=f3e1402]:
+            - link "Privacy Policy":
+              - /url: https://khelo24bet7.com/privacypolicy
+          - listitem [ref=f3e1403]:
+            - link "Disconnection Policy":
+              - /url: https://khelo24bet7.com/disconnectionpolicy
+      - button "Help center":
+        - img "Help center"
+  - link "WhatsApp Support" [ref=f3e1404]:
+    - /url: https://wa.link/reddyanna_
+    - generic [ref=f3e1405]: 
