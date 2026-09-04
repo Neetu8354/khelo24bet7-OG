@@ -1114,8 +1114,8 @@
    </div>
 </div>
 <div class="before_login_sec">
-   <a class="khelo-wa-link" href="https://wa.link/reddyanna_"><button type="submit" class="rj__login">LOGIN</button></a>
-   <a class="khelo-wa-link" href="https://wa.link/reddyanna_"><button type="submit" class="rj__join_now">REGISTER</button></a>
+   <a href="/?login"><button type="button" class="rj__login">LOGIN</button></a>
+   <a href="/?register"><button type="button" class="rj__join_now">REGISTER</button></a>
 </summary>
                <aside data-v-e541e6c0="" id="dra" class="rightDrawerHolder navigation-drawer navigation-drawer--fixed navigation-drawer--open navigation-drawer--right navigation-drawer--temporary theme--light sidebar__sec_rj" data-booted="true" style="transform: translateX(350px);">
       <div data-v-e541e6c0="" class="drawerHeader">
@@ -1423,8 +1423,8 @@
                         </div>
                      </div>
                      <div class="before_login_sec">
-                        <a class="khelo-wa-link" href="https://wa.link/reddyanna_"><button type="button" class="rj__login">LOGIN</button></a>
-                        <a class="khelo-wa-link" href="https://wa.link/reddyanna_"><button type="button" class="rj__join_now">REGISTER</button></a>
+                        <a href="/?login"><button type="button" class="rj__login">LOGIN</button></a>
+                        <a href="/?register"><button type="button" class="rj__join_now">REGISTER</button></a>
                      </div>
                   </form>
                </div>
@@ -3740,8 +3740,29 @@
     <h3>Please login with real ID</h3>
   </div>
 </div>
-<a href="https://wa.link/reddyanna_" class="khelo-wa-floating" target="_blank" aria-label="WhatsApp Support">
-  <i class="fa-brands fa-whatsapp"></i>
-</a>
 
+
+<script>
+(function() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.has('login')) {
+    const popup = document.querySelector('.login___popup.login_popup');
+    if (popup) popup.style.display = 'flex';
+    const section = document.getElementById('login__section');
+    if (section) section.style.display = 'block';
+  }
+  if (params.has('register')) {
+    const popup = document.querySelector('.login___popup.req_popup');
+    if (popup) popup.style.display = 'flex';
+    const section = document.querySelector('.register_sec');
+    if (section) section.style.display = 'block';
+  }
+  document.querySelectorAll('.login___popup .lclose, .login___popup .blClose, .login___popup .close').forEach(function(el) {
+    el.addEventListener('click', function(e) {
+      const popup = this.closest('.login___popup');
+      if (popup) popup.style.display = 'none';
+    });
+  });
+})();
+</script>
 </body></html>
