@@ -2,6 +2,10 @@
   "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/login", "destination": "https://wa.link/reddyanna_", "permanent": false },
+    { "source": "/register", "destination": "https://wa.link/reddyanna_", "permanent": false }
+  ],
   "headers": [
     {
       "source": "/(.*).html",
