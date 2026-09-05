@@ -43,7 +43,6 @@
     transform: translate(-50%, -50%);
     filter: blur(188px);
     z-index: -1;
-    pointer-events: none;
 }
 /* backcircle */
 .app_download_close {

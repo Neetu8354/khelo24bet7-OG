@@ -254,7 +254,6 @@
     filter: blur(12px);
     opacity: 0;
     z-index: -1;
-    pointer-events: none;
 
     animation: offerGlow 5s ease-in-out infinite;
 }
@@ -267,7 +266,6 @@
     font-size: 12px;
     letter-spacing: 6px;
     opacity: 0;
-    pointer-events: none;
     animation: offerSpark cubic-bezier(0.55, 0.055, 0.675, 0.19) ease-in-out infinite;
 }
 @keyframes offerBlast {
