@@ -864,5 +864,15 @@
         </div>
     </div>
 </footer>
+<script>
+(function() {
+  document.querySelectorAll('.dialog__content').forEach(function(wrapper) {
+    var dialog = wrapper.querySelector(':scope > .dialog');
+    if (dialog && dialog.style.display === 'none') {
+      wrapper.style.display = 'none';
+    }
+  });
+})();
+</script>
 </body>
 </html>
