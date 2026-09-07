@@ -1,4 +1,3 @@
-<script>
 (function() {
   var currentDomain = window.location.protocol + '//' + window.location.host;
   var currentPath = window.location.pathname;
@@ -49,4 +48,3 @@
     } catch(e) {}
   });
 })();
-</script>
