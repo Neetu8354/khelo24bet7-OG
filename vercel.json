@@ -1,7 +1,7 @@
 {
   "rewrites": [
-    { "source": "/sitemap.xml", "destination": "/api/sitemap.xml" },
-    { "source": "/robots.txt", "destination": "/api/robots.txt" },
+    { "source": "/sitemap.xml", "destination": "/api/sitemap" },
+    { "source": "/robots.txt", "destination": "/api/robots" },
     { "source": "/", "destination": "/index.html" },
     { "source": "/exchange", "destination": "/exchange.html" },
     { "source": "/sportsbook", "destination": "/sportsbook.html" },
