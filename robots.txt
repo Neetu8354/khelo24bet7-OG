@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.kheloo24.live/sitemap.xml
+Sitemap: https://www.khelo24info.live/sitemap.xml
