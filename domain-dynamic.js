@@ -105,9 +105,19 @@
     img.setAttribute('decoding', 'sync');
   });
   
-  // 2. Close #login-popup (game "Please login with real ID" popup) when X is clicked
+  // 2. Open/close #login-popup (game "Please login with real ID" popup) without changing URL
   var gameLoginPopup = document.getElementById('login-popup');
   if (gameLoginPopup) {
+    // Open popup when any game "Play Real" link is clicked
+    document.body.addEventListener('click', function(e) {
+      var opener = e.target.closest && e.target.closest('.khelo-open-popup');
+      if (opener) {
+        e.preventDefault();
+        e.stopPropagation();
+        gameLoginPopup.style.display = 'flex';
+      }
+    });
+    // Close popup when X is clicked
     document.querySelectorAll('#login-popup .khelo-popup-close, .khelo-popup-close').forEach(function(btn) {
       btn.addEventListener('click', function(e) {
         e.preventDefault();
