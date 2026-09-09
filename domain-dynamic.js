@@ -97,4 +97,48 @@
       script.textContent = updated;
     } catch(e) {}
   });
+  
+  // Fix popup close buttons
+  // 1. Ensure lazy-loaded close images inside login popups load eagerly so the close area is clickable
+  document.querySelectorAll('.login___popup img.lclose, .login___popup img.blClose, .login___popup img.llogo').forEach(function(img) {
+    img.setAttribute('loading', 'eager');
+    img.setAttribute('decoding', 'sync');
+  });
+  
+  // 2. Close #login-popup (game "Please login with real ID" popup) when X is clicked
+  var gameLoginPopup = document.getElementById('login-popup');
+  if (gameLoginPopup) {
+    document.querySelectorAll('#login-popup .khelo-popup-close, .khelo-popup-close').forEach(function(btn) {
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        gameLoginPopup.style.display = 'none';
+        // Remove the #login-popup hash without reloading
+        if (window.location.hash === '#login-popup') {
+          history.replaceState(null, '', window.location.pathname + window.location.search);
+        }
+      });
+    });
+    // Also close when clicking the dark overlay background
+    gameLoginPopup.addEventListener('click', function(e) {
+      if (e.target === gameLoginPopup) {
+        gameLoginPopup.style.display = 'none';
+        if (window.location.hash === '#login-popup') {
+          history.replaceState(null, '', window.location.pathname + window.location.search);
+        }
+      }
+    });
+  }
+  
+  // 3. Make sure the main login/register popups close when close icon is clicked
+  document.querySelectorAll('.login___popup .lclose, .login___popup .blClose, .login___popup .close').forEach(function(btn) {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var popup = this.closest('.login___popup');
+      if (popup) {
+        popup.style.display = 'none';
+      }
+    });
+  });
 })();
