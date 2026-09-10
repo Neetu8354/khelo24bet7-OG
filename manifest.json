@@ -1,13 +1,13 @@
 {
-  "name": "Kheloo24 - Online Gaming & Betting Exchange",
-  "short_name": "Kheloo24",
-  "start_url": "/",
-  "scope": "/",
+  "name": "Khelo24 - Online Gaming, Sports Betting & Live Casino",
+  "short_name": "Khelo24",
+  "start_url": "https://www.khelo24register.live/",
+  "scope": "https://www.khelo24register.live/",
   "display": "standalone",
   "background_color": "#1a1a1a",
   "theme_color": "#1a1a1a",
   "orientation": "portrait",
-  "description": "Kheloo24 Exchange - Back and lay bets on cricket, football, tennis and more.",
+  "description": "Khelo24 - Online gaming, sports betting, live casino and promotions. Register now and start playing.",
   "icons": [
     {
       "src": "/assets/62d5ed8dbd68f16581871496475.png",

@@ -1,4 +1,10 @@
 {
+  "redirects": [
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.khelo24info.live" }], "destination": "https://www.khelo24register.live/:path*", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "khelo24info.live" }], "destination": "https://www.khelo24register.live/:path*", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "www.kheloo24.live" }], "destination": "https://www.khelo24register.live/:path*", "permanent": true },
+    { "source": "/:path*", "has": [{ "type": "host", "value": "kheloo24.live" }], "destination": "https://www.khelo24register.live/:path*", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/favicon.ico", "destination": "/assets/62d5ed8dbd68f16581871496475.png" },
     { "source": "/sitemap.xml", "destination": "/api/sitemap" },
