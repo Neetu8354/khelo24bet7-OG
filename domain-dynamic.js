@@ -18,27 +18,44 @@
   
   // Update og:image
   var ogImage = document.querySelector('meta[property="og:image"]');
-  if (ogImage && ogImage.content.includes('khelo24info.live')) {
-    ogImage.content = ogImage.content.replace(/https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/, currentDomain);
+  if (ogImage && /https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/.test(ogImage.content)) {
+    ogImage.content = ogImage.content.replace(/https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/g, currentDomain);
   }
   
   // Update manifest
   var manifest = document.querySelector('link[rel="manifest"]');
-  if (manifest && manifest.href.includes('khelo24info.live')) {
-    manifest.href = manifest.href.replace(/https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/, currentDomain);
+  if (manifest && /https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/.test(manifest.href)) {
+    manifest.href = manifest.href.replace(/https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/g, currentDomain);
   }
   
   // Update apple-touch-icon
   var appleIcon = document.querySelector('link[rel="apple-touch-icon"]');
-  if (appleIcon && appleIcon.href.includes('khelo24info.live')) {
-    appleIcon.href = appleIcon.href.replace(/https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/, currentDomain);
+  if (appleIcon && /https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/.test(appleIcon.href)) {
+    appleIcon.href = appleIcon.href.replace(/https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/g, currentDomain);
   }
   
   // Update favicon
   var favicon = document.querySelector('link[rel="icon"]');
-  if (favicon && favicon.href.includes('khelo24info.live')) {
-    favicon.href = favicon.href.replace(/https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/, currentDomain);
+  if (favicon && /https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/.test(favicon.href)) {
+    favicon.href = favicon.href.replace(/https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/g, currentDomain);
   }
+  
+  // Update Twitter image
+  var twitterImage = document.querySelector('meta[name="twitter:image"]');
+  if (twitterImage && /https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/.test(twitterImage.content)) {
+    twitterImage.content = twitterImage.content.replace(/https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/g, currentDomain);
+  }
+  
+  // Rewrite any remaining absolute internal links/attributes to current domain
+  var internalDomainRegex = /https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/;
+  document.querySelectorAll('a[href*=".live"], link[href*=".live"], img[src*=".live"], script[src*=".live"], source[src*=".live"]').forEach(function(el) {
+    if (el.href && internalDomainRegex.test(el.href)) {
+      el.href = el.href.replace(/https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/g, currentDomain);
+    }
+    if (el.src && internalDomainRegex.test(el.src)) {
+      el.src = el.src.replace(/https:\/\/www\.(khelo24info|kheloo24|khelo24register)\.live/g, currentDomain);
+    }
+  });
   
   // Domain-specific SEO for khelo24register.live
   if (isRegisterDomain && isHomePage) {

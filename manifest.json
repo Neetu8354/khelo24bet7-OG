@@ -1,0 +1,19 @@
+{
+  "name": "Kheloo24 - Online Gaming & Betting Exchange",
+  "short_name": "Kheloo24",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
+  "orientation": "portrait",
+  "description": "Kheloo24 Exchange - Back and lay bets on cricket, football, tennis and more.",
+  "icons": [
+    {
+      "src": "/assets/62d5ed8dbd68f16581871496475.png",
+      "sizes": "379x120",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
